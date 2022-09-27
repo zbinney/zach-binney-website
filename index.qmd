@@ -3,6 +3,7 @@ title: "Zach Binney"
 about:
   template: jolla
   image: Headshot.jpg
+  image-shape: rectangle
   links:
     - icon: twitter
       text: Twitter
