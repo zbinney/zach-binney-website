@@ -1,11 +1,21 @@
 ---
-title: "zach-binney-website"
+title: "Zach Binney"
+about:
+  template: jolla
+  image: Headshot.jpg
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/binney_z
+    - icon: github
+      text: Github
+      href: https://github.com/zbinney
+    - text: Email
+      href: mailto:zbinney@emory.edu
 ---
 
-This is a Quarto website.
+Zach Binney is an Assistant Professor of Quantitative Theory and Methods (QTM) at Oxford College of Emory University. QTM is an interdisciplinary program, but his background is as an epidemiologist with a focus on sports injuries and athlete health. Teaching is what gets him out of bed in the morning, and currently his focus is on statistics, critical numerical thinking, R programming, and sports analytics for first and second-year undergraduates. He's also a certified 1-day Jeopardy! loser.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+When not working he enjoys football (watching), bowling (mostly rolling himself, but also watching), cycling, bar trivia, intense and complicated board games, and spending time with his wife Amy and son Jacob (a/k/a Drools Verne, a/k/a Fartin' van Buren).
 
-```{r}
-1 + 1
-```
+For more information, see the [About](about.qmd) page or his [CV](0322_CV_ZOB.pdf)
