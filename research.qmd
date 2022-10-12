@@ -2,4 +2,8 @@
 title: "Research"
 ---
 
-Lorem ipsum tbd.
+My research currently sits at the intersection of sports and public health, focusing on sports injuries and athlete health. I work across multiple sports but with particular focuses so far on football and baseball. I especially enjoy writing papers that make methodological contributions to the sports health/medicine/science literature, which I define as teaching others how to correctly and thoughtfully use existing methods for data analysis rather than introducing additional novel methods. Applying relatively simple methods to valid data to answer meaningful questions beats using bleeding edge modeling techniques just because they're there every time.
+
+I previously worked in palliative and end-of-life care and and collaborated on projects related to infectious and cardiovascular diseases.
+
+A more thorough look at my research is available on my [CV](0322_CV_ZOB.pdf) or my [Google Scholar page](https://scholar.google.com/citations?user=96zZFSMAAAAJ&hl=en).

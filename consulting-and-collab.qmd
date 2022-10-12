@@ -1,0 +1,17 @@
+---
+title: "Consulting and Collaboration Opportunities"
+---
+
+![](brass_logo.png){fig-alt="Logo for Binney Research, Analytics, and Sports Services, LLC."}
+
+BRASS, LLC is my consulting arm. I am always more than happy to talk to teams or other organizations at any level about how I or my students can help with research and analytics around sports injuries, athlete health, and sports performance. 
+
+We can also help teams assess how current and new sports technology investments may or may not fit in with their organizational goals.
+
+I am also available for media inquiries. I have extensive print and TV experience - particularly in the pandemic discussing COVID-19's impact on the sports world - and enjoy working with media organizations as an expert on issues in which I have expertise (for example health-related statistical analyses, sports injury issues, and the intersection of COVID and sports).
+
+Some examples of my public work can be found [here](https://www.footballoutsiders.com/author/zach-binney), and I’ve appeared on or in the New York Times, NBC, CBS, USA Today, HBO Real Sports, PBS Frontline, the Washington Post, ESPN, and Sports Illustrated, among other outlets. My [CV](0322_CV_ZOB.pdf) is here.
+
+I currently [teach](teaching.qmd) statistics (statistical critical thinking and R programming) and conduct research at Oxford College of Emory University. I have past experience consulting for NFL, MLB, NBA, and NCAA Division I teams, as well as sports technology and pharmaceutical companies. I am happy to provide more details and references upon request. 
+
+If you would like to discuss a consulting arrangement or have a media request, please just reach out to me at Zachary [dot] Binney [at] gmail [dot] com or zbinney [at] emory [dot] edu!

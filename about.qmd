@@ -2,6 +2,8 @@
 title: "About"
 ---
 
+![](Headshot.jpg){height=300 fig-alt="A picture of Zach Binney."}
+
 My name is Zach Binney. I joined Emory University's Oxford College in August 2020 as an Assistant Professor of Quantitative Theory and Methods. 
 
 I'm an Atlanta native, born and raised. I left for four years to earn my undergraduate degree in the History, Philosophy, and Social Studies of Science and Medicine from the University of Chicago in 2008, but I returned every summer to work as an editor for the CNN Radio network. I then spent 3 years in Washington, D.C. as a healthcare consultant before returning to Atlanta to earn my MPH in epidemiology from Emory in 2013. After a year of research work at the Emory Palliative Care Center he moved back across the quad to earn his PhD in epidemiology at Emory in 2018. His dissertation was on NFL injuries.
