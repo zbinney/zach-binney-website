@@ -1,0 +1,7 @@
+---
+title: "Sports Injury Analytics Blog"
+subtitle: "Where we are always probably doubtful"
+listing:
+  contents: blog_posts
+  type: grid
+---

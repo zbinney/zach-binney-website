@@ -12,7 +12,9 @@ website:
       - href: teaching.qmd
       - href: research.qmd
       - href: consulting-and-collab.qmd
-        text: Consulting and Collaboration Opportunities
+        text: Consulting
+      - href: blog-home.qmd
+        text: Sports Injury Blog
    
 format:
   html:
