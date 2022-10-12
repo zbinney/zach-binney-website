@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "I’m an Atlanta native, born and raised. I left for four years to earn my undergraduate degree in the History, Philosophy, and Social Studies of Science and Medicine from the University of Chicago in 2008, but I returned every summer to work as an editor for the CNN Radio network. I then spent 3 years in Washington, D.C. as a healthcare consultant before returning to Atlanta to earn my MPH in epidemiology from Emory in 2013. After a year of research work at the Emory Palliative Care Center he moved back across the quad to earn his PhD in epidemiology at Emory in 2018. His dissertation was on NFL injuries.\nI have taught multiple courses in epidemiologic and statistical methods as well as R programming to students from freshmen undergraduates through PhD students at Emory and Georgia State Universities. Teaching and interacting with students is what gets me out of bed in the morning.\nMy research currently sits at the intersection of sports and public health, focusing on sports injuries and athlete health. I previously worked in palliative and end-of-life care and and collaborated on projects related to infectious and cardiovascular diseases.\nI’m a lifelong NFL and baseball fan, one of the many things I blame my father for. He was also a statistician for the Braves from 1978-1981, which instilled in me a lifelong love of baseball and stats. But I didn’t begin studying sports injuries until 2013 thanks to a fortuitous accident where an NFL team that offered me a freelance analytics position said “Oh, you’re in healthcare, you must know about injuries, right?” I had not even thought about doing that at the time, but it’s an extremely timely and interesting topic! I’ve been doing in-depth work in the field ever since.\nWhat does a sports epidemiologist do? To grossly oversimplify and steal my own words from one of my FO articles, epidemiologists want to do two main things:\n\nDescribe the distribution of diseases (for example, injuries) in a population (for example, football players) and,\nWhen we see differences within populations (for example, variation by position or team or year), ask and analyze why these differences exist.\n\nThat’s what I do, just applied to sports rather than what might be thought of as more “traditional” public health topics.\nI have consulted for sports organizations (including NFL, MLB, NBA, and NCAA Division I teams), pharmaceutical companies, and media groups on statistical and analytical issues. I am also a staff writer at Football Outsiders and enjoy working with journalists to communicate accessibly about epidemiology and statistics to the public.\nFor more, see my CV or on Twitter @binney_z."
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,26 @@
     "title": "Zach Binney",
     "section": "",
     "text": "When not working he enjoys football (watching), bowling (mostly rolling himself, but also watching), cycling, bar trivia, intense and complicated board games, and spending time with his wife Amy and son Jacob (a/k/a Drools Verne, a/k/a Fartin’ van Buren).\nFor more information, see the About page or his CV"
+  },
+  {
+    "objectID": "QTM_110.html",
+    "href": "QTM_110.html",
+    "title": "Introduction to Scientific Methods (Statistical Critical Thinking)",
+    "section": "",
+    "text": "It’s a course in statistical critical thinking, meant for students with any or no stats background. We focus on important and common errors in quantitative thinking, without heavy math.\nIn other words, we teach you how to think critically about numbers. We teach you how people lie to you with numbers, how to spot it, and how to avoid or correct it.\nAs an example of the sort of material we cover, here is a 2-session lecture on the use, misuse, and abuse of denominators to make bad numerical claims, appropriate for early stage undergraduates (or really any students with a knowledge of fractions):\n\nSlides\nVideos (full YouTube playlist) Part I – Intro, Why Denominators are Important Part II – Failing to Use Denominators Part III – Using Wrong Denominators Part IV – Absolute vs. Relative Differences Part V – Denominators and Misleading Visualizations\nProblem Set (Part III applies to denominators lecture; instructors ONLY may email me directly for key)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Lorem ipsum tbd."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Oxford College of Emory University\n\nIntroduction to Scientific Methods (Statistical Critical Thinking), 2020-Present (every semester)\nIntroduction to Statistical Computing I/II (R for data scientists and analysts), 2020-Present (every semester)\nStatistics in Sports (Fall 2021-Present, every 2 years)\n\nGeorgia State University\n\nFundamentals of Epidemiology (undergraduates), 2018-19\n\nRollins School of Public Health, Emory University\n\nEpidemiologic Methods II (MPH and PhD students), 2018\nEpidemiologic Modeling (MPH and PhD students), 2016\nLongitudinal Data Analysis (MSPH and PhD students), 2017-19\n\nExample lecture for stats-y folks: Understanding Marginal (Population Average) Effects in GEEs vs. Conditional (Subject-Specific) Effects in Mixed Models. Level: appropriate for students with prior knowledge of logistic regression."
   }
 ]
