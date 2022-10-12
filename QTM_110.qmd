@@ -1,0 +1,21 @@
+---
+title: "Introduction to Scientific Methods (Statistical Critical Thinking)"
+---
+
+The actual course title is “Introduction to Scientific Methods,” but that isn’t especially descriptive or evocative of what the course covers.
+
+It’s a course in statistical critical thinking, meant for students with any or no stats background. We focus on important and common errors in quantitative thinking, without heavy math.
+
+In other words, we teach you how to think critically about numbers. We teach you how people lie to you with numbers, how to spot it, and how to avoid or correct it.
+
+As an example of the sort of material we cover, here is a **2-session lecture on the use, misuse, and abuse of denominators** to make bad numerical claims, appropriate for early stage undergraduates (or really any students with a knowledge of fractions):
+
+* [Slides](Lecture 16 - Denominators.pdf)
+* Videos ([full YouTube playlist](https://www.youtube.com/playlist?list=PL8jsIt0CNkNLGce4SDz_uO_lpvTJk_4w0))
+    Part I – Intro, Why Denominators are Important
+    Part II – Failing to Use Denominators
+    Part III – Using Wrong Denominators
+    Part IV – Absolute vs. Relative Differences
+    Part V – Denominators and Misleading Visualizations
+
+* [Problem Set](QTM_110_Problem_Set_8.pdf) (Part III applies to denominators lecture; instructors ONLY may email me directly for key)

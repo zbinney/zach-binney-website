@@ -1,0 +1,24 @@
+---
+title: "Teaching"
+editor: visual
+---
+
+This page is dedicated to the various epidemiology and statistical courses I’ve taught. Below is a list of courses, some with links to further materials or descriptions:
+
+**Oxford College of Emory University**
+
+* [Introduction to Scientific Methods (Statistical Critical Thinking)](QTM_110.qmd), 2020-Present (every semester)
+* Introduction to Statistical Computing I/II (R for data scientists and analysts), 2020-Present (every semester)
+* Statistics in Sports (Fall 2021-Present, every 2 years)
+
+
+**Georgia State University**
+
+* Fundamentals of Epidemiology (undergraduates), 2018-19
+
+**Rollins School of Public Health, Emory University**
+
+* Epidemiologic Methods II (MPH and PhD students), 2018
+* Epidemiologic Modeling (MPH and PhD students), 2016
+* Longitudinal Data Analysis (MSPH and PhD students), 2017-19
+    + Example lecture for stats-y folks: [Understanding Marginal (Population Average) Effects in GEEs vs. Conditional (Subject-Specific) Effects in Mixed Models](lecture-9_mixed_marginal_interpretations.pdf). Level: appropriate for students with prior knowledge of logistic regression.
