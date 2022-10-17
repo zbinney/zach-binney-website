@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2016-10-20">
 
 <title>Zach Binney - Were There Fewer Concussions in the 2016 Preseason? A Study in Uncertainty and Trends</title>
 <style>
@@ -125,6 +126,12 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 20, 2016</p>
+    </div>
+  </div>
     
   </div>
   
@@ -162,10 +169,20 @@ ul.task-list{list-style: none;}
 <section id="binomial-distribution" class="level4">
 <h4 class="anchored" data-anchor-id="binomial-distribution">Binomial Distribution</h4>
 <p>But exactly how likely are each of these other values? Random variables such as the number of preseason concussions - where you have k “successess” (concussions) in n “trials” (athlete-exposures) - are described by a mathematical function known as the <a href="https://en.wikipedia.org/wiki/Binomial_distribution">binomial distribution</a>:</p>
-<p><a href="./blog_img/binomial-distn.jpg">Binomial distribution equation.</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/binomial-distn.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Binomial distribution equation.</figcaption><p></p>
+</figure>
+</div>
 <p>Don’t get stuck on the equation. It just describes the probability of observing k concussions in n athlete-exposures where <strong>p</strong> is the <strong>proportion of athlete-exposures that result in a concussion</strong> (i.e.&nbsp;the probability of heads on our weighted coin). In 2016, our best guess for <strong>p</strong> is our observed proportion, or 71/95,040 = 0.0007.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> k can range from 0 to n concussions.</p>
 <p>The probability will be largest for k = 71 and will grow progressively smaller the further away you move on either side. The exact figures are plotted below (with k truncated at 150 because observing more concussions than that is so vanishingly unlikely):</p>
-<p><a href="./blog_img/binomial-example-concs.jpg">Expected distribution of concussion numbers due to random chance.</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/binomial-example-concs.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Expected distribution of concussion numbers due to random chance.</figcaption><p></p>
+</figure>
+</div>
 </section>
 <section id="confidence-interval" class="level4">
 <h4 class="anchored" data-anchor-id="confidence-interval">Confidence Interval</h4>
@@ -197,12 +214,12 @@ ul.task-list{list-style: none;}
 <div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1" role="doc-endnote"><p> Keep in mind these are diagnosed or reported concussions. These numbers are therefore sensitive not only to changes in the “true” concussion rate and random variation but also to any changes in reporting practices or tendencies such as tweaks to the League’s concussion protocol.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2" role="doc-endnote"><p>Random error comes from the fact that we’re only looking at a finite sample of games, practices, and concussions. Some might argue that because we observed the entire NFL preseason in 2016, there is no random error in our measurement – we got the “true” number of concussions in the 2016 preseason, period. It’s a statistical philosophy debate with points on both sides, but I think about it like this: you know more about a QB’s true performance after 160 games than after 16 games than after 1 game, right? It doesn’t matter whether you’ve observed 100% of his games-to-date or not. There’s still random error from observing a finite sample of games regardless of the proportion that you measured, and that uncertainty needs to be accounted for! I feel more confident in my assessment of well-known fancy dog Tom Brady (https://i.kinja-img.com/gawker-media/image/upload/s–V4AK7m7z–/c_fit,fl_progressive,q_80,w_320/1526150041130607396.jpg) than I do Dak Prescott even though I’ve observed 100% of each of their games. I know more about Brady than I do about Dak and I need a way to quantify that lower uncertainty.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1" role="doc-endnote"><p>Keep in mind these are diagnosed or reported concussions. These numbers are therefore sensitive not only to changes in the “true” concussion rate and random variation but also to any changes in reporting practices or tendencies such as tweaks to the League’s concussion protocol.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Random error comes from the fact that we’re only looking at a finite sample of games, practices, and concussions. Some might argue that because we observed the entire NFL preseason in 2016, there is no random error in our measurement – we got the “true” number of concussions in the 2016 preseason, period. It’s a statistical philosophy debate with points on both sides, but I think about it like this: you know more about a QB’s true performance after 160 games than after 16 games than after 1 game, right? It doesn’t matter whether you’ve observed 100% of his games-to-date or not. There’s still random error from observing a finite sample of games regardless of the proportion that you measured, and that uncertainty needs to be accounted for! I feel more confident in my assessment of well-known <a href="https://i.kinja-img.com/gawker-media/image/upload/s–V4AK7m7z–/c_fit,fl_progressive,q_80,w_320/1526150041130607396.jpg">fancy dog Tom Brady</a> than I do Dak Prescott even though I’ve observed 100% of each of their games. I know more about Brady than I do about Dak and I need a way to quantify that lower uncertainty.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3" role="doc-endnote"><p>If we had some other outside information that p was actually a different value, such as 0.0001 or 0.1, we could then calculate the probability that we observed 71 concussions under those conditions. But here we’re assuming the true p is our observed proportion. You’ll see why shortly.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn4" role="doc-endnote"><p>A very common misconception is the 95% confidence interval means you are 95% confident the “true” value lies somewhere in your interval. Technically, the correct interpretation is that if you measured your desired value over and over and over again and calculated 95% confidence intervals in the same way each time, 95% of those intervals would contain the “true” value you’re seeking to measure. An alternate interpretation – the one I used above – is that if you assume you have the “true” number of concussions, then you can say that in 95% of replications you would get a number within the 95% confidence interval (absent any other source of error or bias).<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn5" role="doc-endnote"><p>For the real stat nerds, I also tried treating concussion numbers as a count variable and constructed exact Poisson confidence intervals. They barely changed (shifted up by 1-2 concussions). Just wanted to cut that comment off at the knees. J/k nobody’s going to read this blog, I won’t get any comments.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn6" role="doc-endnote"><p>For those who really want to know, the 2015 and 2016 numbers are not statistically significantly different at p=0.05. Hypothesis testing and p-values are the devil’s mathematics (https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf) for many reasons I might expound upon in another post. You should always focus on proper estimation and uncertainty assessments, such as confidence intervals, rather than whether you get a p-value above or below an arbitrary threshold.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>For those who really want to know, the 2015 and 2016 numbers are not statistically significantly different at p=0.05. Hypothesis testing and p-values are the <a href="https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf">devil’s mathematics</a> for many reasons I might expound upon in another post. You should always focus on proper estimation and uncertainty assessments, such as confidence intervals, rather than whether you get a p-value above or below an arbitrary threshold.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn7" role="doc-endnote"><p>Keep in mind that these confidence intervals only account for random error. They do not account for additional uncertainty, such as whether concussion reporting or counting practices changed year-to-year, that could make our actual range of plausible values for each year even wider. Thus these intervals should be understood as the minimum uncertainty we have in these figures.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->

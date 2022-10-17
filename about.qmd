@@ -2,31 +2,26 @@
 title: "About"
 ---
 
-![](Headshot.jpg){height=300 fig-alt="A picture of Zach Binney."}
+![](Headshot.jpg){fig-alt="A picture of Zach Binney." fig-align="center" width="29%"}
 
-My name is Zach Binney. I joined Emory University's Oxford College in August 2020 as an Assistant Professor of Quantitative Theory and Methods. 
+My name is Zach Binney. I joined Emory University's Oxford College in August 2020 as an Assistant Professor of Quantitative Theory and Methods.
 
 I'm an Atlanta native, born and raised. I left for four years to earn my undergraduate degree in the History, Philosophy, and Social Studies of Science and Medicine from the University of Chicago in 2008, but I returned every summer to work as an editor for the CNN Radio network. I then spent 3 years in Washington, D.C. as a healthcare consultant before returning to Atlanta to earn my MPH in epidemiology from Emory in 2013. After a year of research work at the Emory Palliative Care Center he moved back across the quad to earn his PhD in epidemiology at Emory in 2018. His dissertation was on NFL injuries.
 
 I have taught multiple courses in epidemiologic and statistical methods as well as R programming to students from freshmen undergraduates through PhD students at Emory and Georgia State Universities. Teaching and interacting with students is what gets me out of bed in the morning.
 
-My research currently sits at the intersection of sports and public health, focusing on sports injuries and athlete health. I previously worked in palliative and end-of-life care and and collaborated on projects related to infectious and cardiovascular diseases. 
+My research currently sits at the intersection of sports and public health, focusing on sports injuries and athlete health. I previously worked in palliative and end-of-life care and and collaborated on projects related to infectious and cardiovascular diseases.
 
-I’m a lifelong NFL and baseball fan, one of the many things I blame my father for. He was also a statistician for the Braves from 1978-1981, which instilled in me a lifelong love of baseball and stats.
-But I didn't begin studying sports injuries until 2013 thanks to a fortuitous accident where an NFL team that offered me a freelance analytics position said “Oh, you’re in healthcare, you must know about injuries, right?” I had not even thought about doing that at the time, but it’s an extremely timely and interesting topic! I’ve been doing in-depth work in the field ever since.
+I'm a lifelong NFL and baseball fan, one of the many things I blame my father for. He was also a statistician for the Braves from 1978-1981, which instilled in me a lifelong love of baseball and stats. But I didn't begin studying sports injuries until 2013 thanks to a fortuitous accident where an NFL team that offered me a freelance analytics position said "Oh, you're in healthcare, you must know about injuries, right?" I had not even thought about doing that at the time, but it's an extremely timely and interesting topic! I've been doing in-depth work in the field ever since.
 
 What does a sports epidemiologist do? To grossly oversimplify and steal my own words from one of my FO articles, epidemiologists want to do two main things:
 
-1. Describe the distribution of diseases (for example, injuries) in a population (for example, football players) and,
+1.  Describe the distribution of diseases (for example, injuries) in a population (for example, football players) and,
 
-2. When we see differences within populations (for example, variation by position or team or year), ask and analyze why these differences exist.
+2.  When we see differences within populations (for example, variation by position or team or year), ask and analyze why these differences exist.
 
 That's what I do, just applied to sports rather than what might be thought of as more "traditional" public health topics.
 
 I have consulted for sports organizations (including NFL, MLB, NBA, and NCAA Division I teams), pharmaceutical companies, and media groups on statistical and analytical issues. I am also a staff writer at [Football Outsiders](https://www.footballoutsiders.com/author/zach-binney) and enjoy working with journalists to communicate accessibly about epidemiology and statistics to the public.
 
-For more, see my [CV](0322_CV_ZOB.pdf) or on Twitter [@binney_z](https://twitter.com/binney_z).
-
-
-
-
+For more, see my [CV](0322_CV_ZOB.pdf) or on Twitter [\@binney_z](https://twitter.com/binney_z).

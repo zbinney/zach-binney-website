@@ -1,0 +1,65 @@
+---
+title: "Good-Faith NFL Player Vaccination Worries, and Honest Responses"
+date: "7/23/2021"
+---
+
+We\'re hearing a lot of different lines of thinking from \"anti-vax\" or \"vaccine hesitant\" NFL players. Most of them, honestly, are in good faith. Yes, some are conspiracy theories you can\'t engage with and can\'t budge them on. But a lot more are simple misconceptions or misunderstandings based on the confusing nature of all this as well as an environment swirling with misinformation. As Dr. Thom Mayer of the NFLPA put it, these are \"[grown-ass men](https://twitter.com/theathletic/status/1403081298713927686)\" with grown-ass questions.
+
+Here, then, is my best attempt to engage honestly and openly with these worries as I see them, in football-specific language where I can. This post will be updated over time as I see more and more arguments against vaccination. I\'ve tried to group these worries into a few broad buckets for simplicity.
+
+And for the record, I got vaccinated with the Pfizer mRNA vaccine the second I was able to here in Georgia.
+
+**CONCERN 1:** \"We don\'t know the long-term effects of the COVID-19 vaccine.\"
+
+**ANSWER 1:** This is basically true, and it\'s important to acknowledge that! The vaccines have only been tested in humans for about a year, so the knowledge beyond that *for these specific vaccines* literally doesn\'t exist in the universe. But I have several counterpoints.
+
+We know from decades of vaccine use that [long-term vaccine side effects are somewhere between extremely rare and nonexistent](https://www.nationalgeographic.com/science/article/vaccines-are-highly-unlikely-to-cause-side-effects-long-after-getting-the-shot-). Any vaccine side effects that *do* occur tend to occur quickly -- within minutes, days or weeks, usually -- meaning we would have already seen them. And we pretty much haven\'t. Intense surveillance efforts for vaccine side effects have uncovered some ultra-rare issues, such as blood clots with the Johnson & Johnson vaccine. But at the risk of repeating myself they are extremely rare and in line with what we\'ve seen with other more established safe vaccines. This is the vaccine surveillance system working exactly as designed.
+
+A counterargument could be the Pfizer and Moderna vaccines specifically are a new type of technology -- mRNA vaccines -- that don\'t have decades of data in humans. It\'s OK to be a little worried about that, though it\'s also important to recognize that [wild claims like it\'s a gene therapy that alters your DNA are 100% false](https://www.cdc.gov/coronavirus/2019-ncov/vaccines/different-vaccines/mrna.html). Lots of very smart people believe the likelihood of long-term negative effects from mRNA vaccines are extremely low, however, and I tend to believe them -- that\'s why I got one of the shots myself. But if you\'re worried about the mRNA vaccines, there\'s actually an easy solution -- don\'t get one! **Get the J&J vaccine instead**, which is based on tried and true old adenovirus vector technology. The drawbacks here are the J&J vaccine may be a bit less effective (but still pretty good, and way better than nothing!) as well as a very, very, VERY small (like, completing 5 Hail Marys in a row small) chance of (treatable) blood clots.
+
+The other thing you should keep in mind is weighing the chance of long-term vaccine side effects from long-term COVID effects on your heart, lungs, and brain, from even mild cases, which we also don\'t understand. Some of your fellow players, like Von Miller, took months to get back to feeling like themselves. Others, like Ryquell Armstead, may never. My wife couldn\'t use mint toothpaste or eat burgers for almost a year because they tasted like literal trash. Don\'t put yourself in that situation.
+
+**CONCERN 2:** \"Vaccinated people still get COVID. I know several guys who already did!\"
+
+**ANSWER 2:** Also true! But incomplete. Studies have shown your chance of getting infected *and your chance of passing the virus along to others* like family members or teammates is substantially reduced -- a good approximation is by about 2/3 -- if you\'re vaccinated. The chance of severe disease that lands you in the hospital or, God forbid, kills youis basically zeroed out.
+
+But the point is, it\'s all about the percentages. Your chance of getting infected is *reduced* if you\'re vaccinated, even if it isn\'t zero. It\'s misguided to think the vaccines serve no purpose if they don\'t work 100%. Finding counterexamples like vaccinated guys you know who got the virus doesn\'t change that.
+
+You understand the idea of risk reduction and percentages. Just think for a minute. You deal with this all the time in football. Some plays are more likely to succeed than others, right? Shovel passes are more likely to be complete than bombs, but they still fall incomplete *sometimes*. Doesn\'t change the fact that they\'re more likely to be complete.
+
+This argument is really like saying, \"Why would I throw the ball to Randy Moss? Chad Chuddington III also catches passes sometimes. I saw him catch two just last week.\" Well, yeah, but I\'d still rather have Randy than Chad on my team. Wouldn\'t you?
+
+It\'s the oldest of maxims in football: any given Sunday. Any team can beat any team on any Sunday. But that doesn\'t mean some teams aren\'t much much much better than others on average. The Jaguars beat the Colts once last year! But, forgive me, I\'d still rather be the Colts than the Jags.
+
+Nothing is *guaranteed* with the vaccine. But it\'s all about putting yourself in a better position to stay uninfected.
+
+**CONCERN 3:** \"I\'m getting tested every day. I\'m not putting anyone (in the NFL) at risk -- if anything, my vaccinated teammates getting tested less frequently are.\"
+
+**ANSWER 3:** Also, honestly, somewhat true! But not an argument against getting vaccinated. You don\'t do \"just enough\" -- you do everything you can to help your team win. You want to be the best *you* can be, not just \"better than that other guy.\" This argument is deflection. Misdirection.
+
+Additionally, your chances on any given day of contracting the virus -- and of transmitting it to others -- *are* much higher than your vaccinated teammates. They just are. I don\'t know that I can explain it any more simply than that. **You will be more likely than a vaccinated teammate to contract the virus and spread it to others at some point during the season.**
+
+We can hope the daily testing catches that. But just like the vaccine, it\'s not a 100% guarantee. The major problem is it still takes time for your daily test to come back, time during which you *could* indeed be spreading the virus to others. You could also become infectious later during the day and not know it until later the next day.
+
+So, yes, your vaccinated teammates are being tested less frequently. But they\'re also less likely to get the virus and spread it to others than you are.
+
+I\'d still bet on an unvaccinated (or vaccinated but symptomatic!) player being a greater risk for [sparking an outbreak](https://www.washingtonpost.com/opinions/2021/05/17/yankees-covid-outbreak-vaccines-work/) than any unvaccinated and asymptomatic player. Daily symptom screens, and always being conscious of when you develop them, is another solid layer of defense.
+
+**CONCERN 4:** \"It\'s my private choice. It\'s nobody else\'s business what I do with my body. You do you, and I\'ll do me.\"
+
+**ANSWER 4:** Normally I\'m sympathetic to this argument. I really am! It\'s a valid argument to make **when your decisions don\'t negatively affect anybody else.**
+
+For example, if you want to spend all night at the strip club, be my guest. That\'s a truly private issue (between you and any partners you have) that\'s none of my dang business.
+
+But with COVID -- or any infectious disease -- your decisions affect me. That\'s where it absolutely *does* become my business. Whether we like it or not, we\'re all in this together.
+
+Your \"personal, private decision\" affects me, not just you, because you\'re making yourself more likely to spread COVID to me if you\'re unvaccinated. And, as you pointed out above, even if I\'m vaccinated I can still get COVID. So it\'s perfectly reasonable for me to care about what you do.
+
+Think about making this argument for drunk driving. \"Sir, before you get behind the wheel, can I just ask have you been drinking tonight?\" You don\'t get to respond \"That\'s my private choice,\" because if you\'re drunk you\'re putting me at risk by getting on the road. The same principle is at play with the vaccines.
+
+There\'s a stronger argument against seatbelt laws -- where your choice not to wear a seatbelt more or less just affects you (except through the unnecessary consumption of hospital resources and healthcare dollars) -- than there is against mandates for vaccines that have been shown to be safe and effective.
+
+So I\'m sorry, but this argument doesn\'t hold water when it comes to infectious diseases.
+
+\
+

@@ -1,0 +1,58 @@
+---
+title: "Article Review: Pitching a Complete Game and DL Risk"
+date: "5/30/2018"
+---
+
+Despite the name of this blog being NFL injury analytics, since I'm now spending at least a third of my time working in baseball I'm going to start writing about that, too.
+
+I wanted to start by discussing an article that came out a couple months ago in the *Orthopedic Journal of Sports Medicine* entitled ["Relationship Between Pitching a Complete Game and Spending Time on the Disabled List for Major League Baseball Pitchers."](https://journals.sagepub.com/doi/full/10.1177/2325967118761354)
+
+*tl;dr:* This article makes a claim that is completely unsupported by its analysis. Please don't use it. Read on below for a deeper dive into (some of) the big reasons why.
+
+Before I get into that, though, I just want to say that I'm only writing about this article in particular because it *happened* to slide across my Twitter timeline on a morning when I had some spare time and motivation to write about it. I do think the errors here are particularly egregious, but the same types of mistakes are extremely common in a lot of sports injury papers. I hate to feel like I'm singling out just one research group, so please understand that my criticisms will likely apply to a lot of what you read, not just these folks.
+
+OK, onward!
+
+**Research Question:** The authors sought to "to determine the relationship between pitching a CG and time on the DL". Reading into this a bit, they suspect that pitching a complete game puts greater stress on/creates more fatigue for pitchers, leaving them at higher risk for future injury.
+
+There's been a lot of research on how many and what kinds of pitches can be "safely" thrown, but a "complete game" (CG) is an odd proxy marker to use. Why would a CG in and of itself be dangerous? Wouldn't the number of pitches or some measure of cumulative stress be better?
+
+But let's set that aside and say this is a fine question to investigate. The study is still not good.
+
+**Conclusions:** In the abstract (which is all most people read and what most news reports on articles will be based off of), the authors focus on one main result: "Overall, 74% of pitchers who threw a CG spent time on the DL, as compared with 20% of \[matched\] controls."
+
+Holy smokes, Batman! This statement implies that pitchers who throw a CG are nearly 4 times as likely to end up on the DL as matched controls (otherwise similar pitchers who did not toss a CG). That's a *huge* effect...if true. [**Unfortunately, nothing in their paper supports this conclusion.**]{.underline} At all.
+
+Let's dig in to the meat of the paper (Methods and Results) and see where these numbers came from.
+
+[**The problems:**]{.underline}
+
+1.  **Who was included in the study?** This is rather hard to dig out of the Methods (it shouldn't be), but as near as I can tell there were 1,016 pitcher-seasons included in the study. Of these, 501 were for 246 individual pitchers who threw a CG *at some point from 2010-2016* (which I'll term the "exposed" group of pitcher-seasons) and then, presumably, 515 from \[an unknown number of\] pitchers who did not throw a CG *at any point from 2010-2016* (which the authors term "controls" but I'll term "unexposed"). This is already a weird breakdown that leaves several elementary questions unaddressed, among them:
+
+    -Were only starters included in the non-CG group?
+
+    -How many non-CG pitchers were used?
+
+2.  **"74% of pitchers who threw a CG spent time on the DL":** Where does this come from? Of the 501 *pitcher-seasons* from pitchers *who pitched a CG at some point from 2010-16*, 370 (74%) included time on the DL. This is very different from the statement provided in the abstract (and also, frankly, seems very high, but I'm not going to fact-check this right now).
+
+3.  **The matched controls:** The authors state they created a comparison group of pitchers who never threw a CG in their careers and matched them to pitchers who did *and ended up on the DL in the same year they threw a CG* (which they term the "CG/DL group"). Hold that thought. We are never told how many pitchers are in either group -- just how many *pitcher-seasons* are in the CG/DL group (115).These pitchers were matched on age (cool), "year" (presumably the years they pitched, though this is never stated), and...IP during the "index season" (for the CG/DL pitchers, the year \[or years? never stated\] they threw a CG and went on the DL).
+
+    So. You're *selecting* control pitchers who threw a comparable number of innings without getting a complete game. Which means they made up the innings somewhere else. Where's the most likely place to make up that ground? How about not going on the DL?
+
+    This is selecting on the dependent variable. You're choosing a control group that was by definition less likely to be hurt and then trying to turn around and use that as evidence that CGs are risky. Bad.
+
+    They also stated that they were able to create a matched control group for the CG/DL pitchers, but not for *any* pitcher who threw a CG because they couldn't find appropriate matches. This is further evidence for selecting on the dependent variable: they could only find matches on IP for CG pitchers who *also* went on the DL. Without a DL trip, there were no matches.
+
+    Oh, and the matching on the IP wasn't even good! Controls pitched on average 38 fewer innings per year (136 vs. 174). So why even claim you matched? You didn't do so successfully, anyway.
+
+4.  **"Overall, 74% of pitchers who threw a CG spent time on the DL, as compared with 20% of \[matched\] controls":** This statement, which is repeated over and over as the article's primary conclusions, [**is a false comparison totally unsupported by the article's analysis and text**]{.underline}. First off, the 20% figure is for a single season only (the "index season" described above). In fact *50%, not 20%,* of controls spent time on the DL at some point during the study period.
+
+    Alright, so the 74% vs. 20% is already bust-o. But we're not done yet.
+
+    The authors also never matched their controls to the full CG group. They matched them to the CG/DL group, where *by definition* 100% of the pitcher-seasons involved time on the DL. This is textbook selection on the dependent variable and makes *any* comparison with the CG/DL group worthless. 100% vs. 20% or 50% means nothing here.
+
+    But let's assume the controls are somehow a decent comparison for the full group of CG pitchers. We're told that at some point throughout the study period 50% of control pitchers spent time on the DL. What is that corresponding figure for the CG pitchers? Well, conveniently, we're never given it. We're only told 74% of *pitcher-seasons* involved time on the DL.
+
+    So the authors are trying to compare the % of control *pitchers* who spent time on the DL *in a single season* with the % of CG *pitcher-seasons over 7 years* involving time on the DL. And we don't have the % of pitcher-seasons for the controls or the % of pitchers for the CG group. Oh, and the two groups aren't actually matched and we have no idea whether they're comparable (in fact, we have evidence from the IP figures that they are not). Am I missing anything?
+
+**Summary:** This paper is a mess. It's unclear, incomplete, lacks basic details, makes invalid comparisons left and right, and appears to repeatedly select on the dependent variable. If I had reviewed this paper I would have never recommended it be published in its current state. I urge you to disregard its findings. It provides *zero* evidence for CGs in and of themselves being dangerous. I am genuinely alarmed this was published in *OJSM*.

@@ -1,0 +1,62 @@
+---
+title: "Just How Dangerous IS the NFL vs. Other Sports?"
+date: "6/6/2017"
+---
+
+Turns out, yeah, pretty dangerous, actually.
+
+As I'm working on my dissertation literature review I figured I'd put a small piece of it to good use for someone other than my committee. 4 people would normally read this, so I'm really hoping we can double that.
+
+There is a wide-ranging belief that the NFL has the highest injury rates of the major North American sports, but by how much? Because game injury rates (rather than injury rates in practices) tend to be easier to calculate (and more available across studies) than those incorporating practices, we'll focus exclusively on those.
+
+We'll need to introduce one concept to make the analyses below make sense: the idea of an "athlete-exposure" (AE). This is simply defined as 1 athlete participating in a practice or, in the case of this article, a game. Thus a single NFL game where every available player plays in the game would count for 92 athlete exposures -- the 46 guys on the active game day roster on each of the two teams. All the injury rates below are presented per 1,000 AEs.
+
+The studies compared below all have differences in how exactly injuries are defined (namely how much practice/competition time a player has to miss for something to count as an "injury") and the years they covered, but in an effort to ensure high-quality data I've limited the studies to official league injury surveillance systems wherever possible.
+
+![](./blog_img/injury-rates-across-sports.png){fig-align="center" width="100%" fig-alt="Game injury rate per 1,000 AEs by sport."}
+
+Among the "Big 4" North American sports, the NFL has by far the highest game injury rate at 75.4 per 1,000 AEs. This means for every 1,000 players playing in a single game, 75.4 will suffer some sort of injury. So in a single game with 92 AEs, you might expect about 75.4 x 92/1,000 = \~7 injuries.
+
+Compared to the other Big 4 North American sports, **the NFL thus has roughly 4-5 times the in-game injury rate of the NBA, MLB, and NHL.**
+
+What about more international sports (MLS statistics weren't readily available, so soccer goes here, stop complaining)? **The NFL also has roughly 4 times the in-game injury rate of soccer and, interestingly, Australian rules football.**
+
+The only sport that comes close to touching the in-game injury rate of the NFL is rugby. The data are variable, but in general **rugby seems to have either a similar or higher injury rate to the NFL**. I wanted to look into concussions specifically in the NFL vs. rugby, but I've found some conflicting data and I want to do more research on this before saying anything.
+
+I'll spare you the gory details of the data sources unless you want to click below the jump, where I've included everything you should need to evaluate these on your own if you want!
+
+#### UPDATE \~6 hours after original post:
+
+I purposefully simplified or ignored quite a few issues in writing this post to try to communicate my main point, but some good questions from friends have come up and I want to briefly address a couple shortcomings of this analysis:
+
+1.  This post only considers one possible way to measure injury rates: per player-game. The results would likely look substantially different if we used another, more precise denominator such as player-hours. The NHL numbers, in particular, would look higher relative to the NBA and MLB in such an analysis since hockey players on average play a lower proportion of each game than baseball or basketball players. So this is not the be-all end-all answer for which sport is the "most dangerous."
+
+2.  Along those same lines, although the risk of being hurt in any given NFL game is way higher athletes play way more games in the NBA, NHL, and MLB. So the differences across sports in an individual athlete's risk of being injured in a season are going to be much less than the differences in injury rates I've shown here. Maybe I'll take a stab at calculating risks in another post!
+
+In a nutshell: this is just one way of measuring which sport is more "dangerous," and it's probably the way that casts the NFL in the most negative light. Injury rates per player-hour or 1-season risks would likely make football look less dramatically bad.
+
+## Gory Details
+
+#### NFL
+
+The best available estimate of overall NFL injuries comes from [a 2017 report from Harvard Law School](https://footballplayershealth.harvard.edu/wp-content/uploads/2017/05/06_Ch2_Injuries.pdf) that used NFL Injury Surveillance System (ISS) data. In 2014-15 (the most recent 2 years available for all injuries) there were 3,553 injuries in regular season games and 737 in regular season practices (82.8% of injuries in games). Assuming 92 athlete exposures per game (46-man game-day roster x 2) and 256 games per regular season, this translates to 3,553/(256 x 2 x 92) x 1,000 = **75.4 injuries per 1,000 AEs in games in the NFL**. There were 737 injuries in regular season practices over the same time period. If we assume 4 practices per week, 61 athlete exposures per practice (53-man active roster + 8-man practice squad), 32 teams, 17 weeks, and 2 seasons, this translates to 737/(61 x 32 x 17 x 4 x 2) = 2.8 injuries per 1,000 AEs in regular season practices. The combined game and practice regular season injury rate would then be 13.7 per 1,000 AEs.
+
+#### The Other Big 4: MLB, NBA, NHL
+
+What about the other of the "Big 4" North American sports? For MLB, [the Harvard report](https://footballplayershealth.harvard.edu/wp-content/uploads/2017/05/06_Ch2_Injuries.pdf) began with [data from MLB's Healthy Injury and Tracking System (HITS)](https://pubmed.ncbi.nlm.nih.gov/26874305/) that showed 2,988 injuries in the 2011-12 seasons across spring training, the regular season, and postseason. Since \~71.7% of those games would have been in the regular season, we can assume 2,142 regular season injuries. Other data reveal [138,085 regular season player-games in 2011-12](https://pubmed.ncbi.nlm.nih.gov/25660188/) , translating to a game injury rate of 15.5 per 1,000 AEs.
+
+In the NBA, [Drakos et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3445097/) used data from the NBA Trainers Association database to estimate a rate of 19.1 injuries per 1,000 AEs in regular season games from the 1988-89 through 2004-05 seasons . Due to the age of this data and the fact that it did not come from a modern EMR system, this is likely something of an underestimate of the true NBA injury rate.
+
+In the NHL, [McKay et al](https://pubmed.ncbi.nlm.nih.gov/24334505/) used data from the Athlete Health and Management System (AHMS) to estimate a regular season game injury rate of 15.6 per 1,000 AEs from the 2006-07 to 2011-12 seasons.
+
+#### Soccer
+
+For soccer, MLS data is unfortunately limited and old, but better data is available from the Union of European Football Associations (UEFA). From 2001-2008, [Ekstrand et al](https://pubmed.ncbi.nlm.nih.gov/19553225/) estimated 27.5 injuries per 1,000 hours of match play. At 90 minutes per game for most players, this translates to approximately 27.5 / 1.5 hours = 18.3 injuries per 1,000 AEs in UEFA games. (More recent data from the 2014 UEFA Report on injuries reported 23.2 injuries per 1,000 hours of match play in 2013-14, translating to 15.5 injuries per 1,000 AEs).
+
+#### Australian Rules Football
+
+For Australian Rules Football, [Orchard et al](https://pubmed.ncbi.nlm.nih.gov/11867491/) estimated a game injury rate of 25.7 per 1,000 hours from 1997-2000. At 80 minutes per game, this translates to approximately 25.7 / 1.33 hours = 19.7 per 1,000 AEs. Due to its age, this number may also, like the NBA's, be a substantial underestimate.
+
+#### Rugby
+
+[One study of the highest level of English rugby](https://pubmed.ncbi.nlm.nih.gov/16183774/) (Brooks et al) found a game injury rate of 91.4 per 1,000 player-hours from 1,534 injuries in 420 matches from the 2002-03 to 2003-04 seasons . In this league there are 15 players per team with up to 8 replacements; if we assume the maximum played in each game (23 x 2 = 46), this would translate to 1,534 injuries / (420 matches x 46 players per match) = 79.4 injuries per 1,000 AEs in English Premiership rugby games. [A systematic review of 15 men's senior rugby studies](https://pubmed.ncbi.nlm.nih.gov/23839770/) found an overall game injury rate of 81 per 1,000 player-hours (95% CI 63-105). If we take the same ratio of AEs to player-hours as in the English Premiership study, this would translate to 70.4 injuries per 1,000 AEs in games (95% CI: 54.7-91.2). Additionally, [a comparison of football and club rugby teams at Ohio State University from 2012-2014](https://pubmed.ncbi.nlm.nih.gov/26786902/) found game injury rates of 23.4 per 1,000 AEs for football and 39.6 per 1,000 AEs for club rugby -- though this football rate was lower than the 35-40 per 1,000 AEs reported in other college studies. In the end, it seems likely that at similar levels of competition rugby has game injury rates at least similar to, if not higher than, the NFL.

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2020-02-11">
+
+<title>Zach Binney - What Can You Calculate With Player Tracking Data? A List of Metrics.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Zach Binney</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../consulting-and-collab.html">Consulting</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog-home.html">Sports Injury Blog</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#first-plot-your-data" id="toc-first-plot-your-data" class="nav-link active" data-scroll-target="#first-plot-your-data">First, Plot Your Data</a></li>
+  <li><a href="#an-incomplete-list-of-metrics-you-could-calculate" id="toc-an-incomplete-list-of-metrics-you-could-calculate" class="nav-link" data-scroll-target="#an-incomplete-list-of-metrics-you-could-calculate">A(n Incomplete) List of Metrics You Could Calculate</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">What Can You Calculate With Player Tracking Data? A List of Metrics.</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 11, 2020</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>The hottest commodity in the sports analytics world right now is player tracking data. It’s called different things in different sports (e.g.&nbsp;“Next Gen Stats” in the NFL), but it all boils down to somehow measuring exactly where every player is on the field/pitch/court in very short intervals (e.g.&nbsp;10 times per second).</p>
+<p>These data sets are extremely rich, complex, and <strong>big</strong>. For example, in a 7-second American football <em>play</em>, you would have 22 players x 10 observations per second x 7 seconds = 1,540 observations of several metrics (at a minimum, X and Y coordinates on the field). Just wrangling this data into analyzable shape is an enormous challenge, but I’m not writing about that today because I’m not an expert in data engineering.</p>
+<p>Instead, let’s say you have a bunch of this data cleaned, imported, and ready to analyze. What to do next can still feel overwhelming. Where do you even start? My goal with this post is to provide a unified, cross-sport list of high-level <em>options</em> for things you could calculate with tracking data based on the work that I’ve seen; I want to make the problem of what to do next less abstract.</p>
+<p>A couple caveats: first, I come at this from a sports science/player performance/injury perspective, rather than from fan engagement or in-game strategy. This is supposed to be a living document (LAST UPDATE: <strong>February 12, 2020</strong>), and I’m hoping other people will help me flesh out this list with things I’ve missed to make it more comprehensive. But cut me a little slack if I miss something obvious from outside my expertise – we all need diverse teams to do great work. Second, this post is designed to be a list of <em>metrics</em> you could calculate from the data, not <em>questions</em> you can answer with it. Hopefully this list of metrics a.) helps break the logjam of “Oh God where do I start with all this?” and b.) helps suggest interesting questions you could investigate with some of them. Third, there are a virtually infinite number of ways you could combine and tweak all these metrics – if there’s a popular one of these you like that I didn’t specifically include I’m happy to add it to the list, but I wanted to start with the overarching concepts. A detailed, near-infinite list might be useful for some people, but it wasn’t my goal here. Consider this more an attempt at a taxonomy.</p>
+<p>*Deep breath* OK, let’s go.</p>
+<section id="first-plot-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="first-plot-your-data">First, Plot Your Data</h2>
+<p>This advice extends well beyond player tracking data, but always plot your data before doing any analysis on it.</p>
+<p>Here’s an example of what player (and ball) tracking data looks like when you plot (and animate it) over time. These “dots” visualizations are probably the simplest thing you can do with the data but can be quite interesting! They’re a new way of looking at all the action on a play at once – rather than just what the TV cameras show, presented in a stripped-down way. Below are two examples of these plots – a plot of a single play from a 2017 NFL game (provided by Mike Lopez, the NFL’s Director of Analytics), and a plot of a bunch of plays where NFL players were injured from the <a href="https://www.kaggle.com/c/nfl-playing-surface-analytics">NFL’s 2019-20 “1st and Future” Analytics competition</a>, split by position. For guidance on how to create similar plots in R, check out the “What Can We Do With Next Gen Stats?” section of <a href="https://statsbylopez.netlify.app/post/r-for-nfl-analysis/">this post</a> by Mike.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/kc-ne-dots.gif" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption"><em>“Dot” visualization of player tracking data for single NFL play, KC vs.&nbsp;NE 2017. <a href="https://statsbylopez.netlify.app/post/r-for-nfl-analysis/">Source</a>.</em></figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/injury-plays-animated.gif" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Visualization of all injuries on known plays from the 2019-20 NFL 1st and Future Analytics competition, split by position. Note this data only shows the injured player on each play. Created by me.</em></figcaption><p></p>
+</figure>
+</div>
+<p>These visualizations can also be isolated, broken down, and re-aggregated in infinite interesting ways – for example, all the routes run by Chiefs tight end Travis Kelce in the 2019 season.</p>
+</section>
+<section id="an-incomplete-list-of-metrics-you-could-calculate" class="level2">
+<h2 class="anchored" data-anchor-id="an-incomplete-list-of-metrics-you-could-calculate">A(n Incomplete) List of Metrics You Could Calculate</h2>
+<p>So you’ve plotted your data. Now what? How can you <em>quantify</em>, and subsequently numerically analyze, what’s going on in the tracking data? Below I’ve tried to categorize, at a high-level, the major metrics I’ve seen people pull from tracking data (which I assume includes, at a minimum, X and Y coordinates for each player and the ball multiple times per second). This list scopes out some rough bounds for what data scientists might call “feature engineering” – a fancy term for defining the variables you want to include, say, a regression model.</p>
+<section id="player-movements-and-movement-patterns" class="level4">
+<h4 class="anchored" data-anchor-id="player-movements-and-movement-patterns">Player Movements and Movement Patterns:</h4>
+<ol type="1">
+<li><p><strong>Distance Traveled</strong> – easily calculable using the Pythagorean theorem. Pause for a gasp at the real-world utility of middle &amp; high school geometry! If <em>a</em> is the difference in X coordinates between two consecutive measurements, and <em>b</em> is the difference in Y coordinates between two consecutive measurements, then you can easily calculate the total distance traveled between two consecutive measurements <em>c</em>. Most often you’d sum these distances up to get the total distance a player traveled over some relatively long period of interest (a play, half, game, or season). This could be considered a very crude measure of the (external) “load” on a player – or how hard s/he worked in a given period.</p></li>
+<li><p><strong>Player Speed</strong> – if you’ve calculated the distance <em>d</em>, and you know the time between two measurements (<em>Δt</em>), you can calculate a player’s speed using <em>d/Δt</em> and convert to sensible units depending on your particular application (e.g.&nbsp;meters per second (m/s), miles per hour (mph)). Sub-metrics within player speed could include…</p>
+<p>-Average speed during a period of interest</p>
+<p>-Maximum speed during a period of interest</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/pythagorean.gif" class="img-fluid figure-img" style="width:70.0%"></p>
+<p></p><figcaption class="figure-caption"><a href="https://mathworld.wolfram.com/PythagoreanTheorem.html"><em>Source</em></a><em>.</em></figcaption><p></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><p><strong>Player Distances by Speed</strong> – if you know the player’s speed and distance traveled in each interval, you can sum up either the total time or distance a player traveled in specific speed ranges. These speed ranges are broken into categories such as “walking/jogging”, “high-speed running”, “very high-speed running,” and “sprinting” using sport- or even individual-specific thresholds. How these thresholds are determined is beyond the scope of this post. So you could, for example, calculate the amount of <em>time</em> or <em>distance</em> traveled by a player while in a “high-speed running” range (e.g.&nbsp;9-13 mph) or a “very high-speed running” range (e.g.&nbsp;13-18 mph) for some time period of interest, such as a game or training session. This provides a somewhat more-refined look at a player’s “load,” since walking a mile (I can do easily) and sprinting a mile (I would die) are very different tasks.</p></li>
+<li><p><strong>Accelerations/Decelerations</strong> – <em>If a player is (or can be assumed to be) moving in a straight line</em> and you have a player’s speed <em>s</em> at consecutive time points, then his/her acceleration over that period is Δs/Δt, expressed often in meters/second/second (m/s^2) or in G-forces. These forces put a lot of wear-and-tear on player’s bodies and are relevant when tracking their health (how many times have we asked Player X’s knee to endure sharp decelerations this week?) as well as their performance (how fast can Billy Hamilton accelerate to reach 1st base or catch a fly ball?).However, the actual formula for acceleration is based on velocity <em>v</em>, which is a combination of speed and direction.</p>
+<p>Think about sitting in the carnival ride <a href="https://en.wikipedia.org/wiki/Scrambler_(ride)">the Scrambler</a> when it’s going at full speed. You feel a force pushing you into the side of the car – that’s an acceleration, and it’s certainly relevant when talking about, for example, the forces players experience on their joints or heads. Calculating this acceleration requires some tricky math I’m not going to get into here (read: I’m not an expert). Some GPS units will give you a readout of a player’s acceleration during each interval between measurements, but if you’re working without that (or even if you are!) you’ll likely want to consult a physicist or biomechanist.</p>
+<p>Once you have a measure(s) of acceleration or deceleration you’re satisfied with, there are several things you can do with these:</p>
+<p>-Maximum acceleration and/or deceleration during a given period (e.g.&nbsp;a play)</p>
+<p>-Duration spent above a certain acceleration or deceleration threshold</p>
+<p>-Number of distinct times a player exceeds a specific threshold for acceleration or deceleration, where a “distinct event” ends when a player’s acceleration or deceleration drops back below the stated threshold</p></li>
+<li><p><strong>Directional (Movement) Changes</strong> – this is related to accelerations and decelerations, but you can use the X and Y coordinates between two consecutive measurements to determine the direction of movement between those time points. You can then compare the direction of movement between two successive pairs of measurements to calculate the angle between the directions the player is moving between those two pairs. The angles could run between -180 and +180 degrees, with negative angles indicating a left turn and positive angles indicating a right turn. The absolute value of this angle would indicate the “sharpness” of the turn. You could turn these directional change angles into any number of metrics.</p>
+<p>A few examples:</p>
+<p>-Maximum directional change in 1-second period</p>
+<p>-Number of directional changes greater than some specified angle in a 1-second period over the course of a game</p>
+<p>-Number of directional changes greater than some specified angle in a 1-second period while traveling above some specified speed over the course of a game</p>
+<p>–“Zig-zag Ratio” – this was a new metric <a href="https://www.kaggle.com/code/elijah24/nfl-injuries/notebook">developed by Elijah Hall</a> in the NFL’s 2019 1st and Future contest. It is essentially an overall way to measure how “curvy” a player’s movement was in a specified period. It is simply the ratio the total distance the player traveled and the straight-line distance between the points at the start and end of the time period you’re interested in. The ratio will be higher for “curvier” routes, becoming infinite if you move some but end up back where you started. I haven’t fully thought through the implications of this metric (perhaps multiplying the ratio by the total distance traveled would be better as taking one step forward and half a step back would result in a high “zig-zaggyness” ratio (2.0) but doesn’t represent a lot of work), but it’s an interesting idea some of you might want to play around with.</p></li>
+<li><p><strong>Orientation Changes</strong> – Instead of using changes in the direction of movement, you could also measure changes in a player’s “orientation” if your tracking data includes such a measure. This could be more relevant than directional changes in measuring some forces on joints – for example, a player could be running in a straight line but shifts his/her hips to look back for a pass in the air. That shifting is theoretically important to take into account when measuring player load and could be combined with actual changes in the direction of movement and accelerations/decelerations to achieve a more complete picture of the forces a player’s body undergoes at any given moment.</p>
+<p>Per the NFL’s Next Gen Stats, orientation is the direction a player is “facing.” But it may not be what you’re thinking. The GPS chips are in a player’s shoulder pads, so their orientation is the direction their <em>shoulders and torso are pointing</em> – not their head (i.e.&nbsp;it doesn’t represent where they’re <em>looking</em>). I would suggest using this metric with caution unless you understand exactly what it represents about the player’s body.</p></li>
+</ol>
+<p><strong>Acute vs.&nbsp;cumulative measures</strong> – generally speaking, any of these metrics could be measured over any time period, from a tenth of a second in-game to cumulatively over an entire season or even career. How hard did Derrick Henry decelerate on that run on 2nd &amp; 3 when he got hit vs.&nbsp;how many decelerations &gt;2.5 m/s^2 has he experienced in the last 6 weeks are different metrics built from the same basic measurement. Both acute and cumulative measures are likely valuable dimensions to consider when using tracking data to assess player performance and health.</p>
+<p>Which is more relevant will vary by question. For example, do I want to know what acute movement led to Player X’s specific knee injury? Or do I want to know what kind of in-game movement patterns are “riskier” for certain injuries? For these, more acute or short-term measures are probably most relevant.</p>
+<p>Or do I want to know what movement “loads” push players into higher-risk zones over the course of a season? There, longer-term cumulative measures are probably most relevant.</p>
+</section>
+<section id="contextual-strategic-information" class="level4">
+<h4 class="anchored" data-anchor-id="contextual-strategic-information">Contextual Strategic Information</h4>
+<ol type="1">
+<li><p><strong>Distances Between Players</strong> – This is just what it sounds like. You can calculate the distance to the closest (or second-closest) player on an opposing team or on your own team as a crude contextual measure of the quality of a player’s positioning. You can also think of “distances” in terms of time – not how physically far is a defender from me, but how long will it take him/her to reach me with his/her current speed and direction? This could be useful, for example, in predicting the number of yards an NFL running back is likely to gain from any given spot in his run, or measuring how valuable a basketball shot is based on how contested it is.</p>
+<p>Under this general umbrella you could calculate things (engineer features) like:</p>
+<p>-Distance to closest defender</p>
+<p>-Distance to second-closest defender</p>
+<p>-Distance to closest ally (e.g.&nbsp;blocker in football)</p>
+<p>-Distance to second-closest ally</p>
+<p>-Number of defenders within X distance of ballcarrier or receiver</p>
+<p>-Number of defenders within X time of player’s current (or a future expected) position given current velocities and directions</p>
+<p>Alternatively, you could simply use raw data on each player’s speed and location (and/or their speed and location relative to something else of interest, like a ballcarrier) and feed it into a fancy neural network to predict some aspect of a game you’re interested in (such as the number of yards a running back will gain on a certain play). That is, if I’m understanding their explanation correctly, basically what <a href="https://www.kaggle.com/c/nfl-big-data-bowl-2020/discussion/119400">The Zoo did</a> to win the 2019 NFL Big Data Bowl (#BigDataBowl Mike, you happy?).</p></li>
+<li><p><strong>Zone of Control</strong> – This isn’t a single metric so much as a general set of analyses you can undertake with tracking data that could then be used to address any number of questions. You can start by building “Voronoi diagrams,” which is a fancy math term for a diagram showing which areas of a field/court/pitch are closest to each player. Below is an example for an NFL play, but these are also extremely common in soccer, basketball, and hockey. This is a crude way of looking at who “controls” which areas of the field based on static player positions at a single point in time.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/voronoi-nfl.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Voronoi diagram for an NFL play. <a href="https://www.kaggle.com/code/statsbymichaellopez/nfl-tracking-wrangling-voronoi-and-sonars/notebook">Source</a>.</em></figcaption><p></p>
+</figure>
+</div>
+<p>Better methods involve accounting for each player’s direction and velocity. If you’re a wide receiver sprinting down the field, you “control” very different territories depending on whether a safety who’s 5 yards straight ahead of you is backpedaling or sprinting towards you at full speed, for example. Check out <a href="https://operations.nfl.com/media/3670/big-data-bowl-sfu.pdf">these</a> <a href="http://www.lukebornn.com/papers/fernandez_ssac_2018.pdf">papers</a> for more details.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/zone-of-control-nfl.png" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Zone of control model accounting for player and opponent speed and direction in the NFL. <a href="https://operations.nfl.com/media/3670/big-data-bowl-sfu.pdf">Source</a>.</em></figcaption><p></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li><p><strong>Shape Analysis</strong> – Player movements over time (a few seconds) form lines or curves that can be broken up and analyzed. How you would break up and analyze these curves is sport-specific and requires a ton of subject matter expertise.</p>
+<p>For example, in the NFL you might want to look at the shape of a wide receiver’s route over an entire play and then <a href="https://danichusfu.github.io/publication/route-identification-nfl/">automatically identify and classify those routes</a> for later use by coaches to look at player tendencies.</p>
+<p>In soccer, you could <a href="https://github.com/YamStats/Applied-Soccer-Analytics-with-R/blob/master/Applied_Soccer_Analytics_with_R.pdf">map passes (ball movements rather than player movements) and then use a clustering algorithm</a> to try and create a taxonomy of the most common passes for various teams.</p></li>
+</ol>
+<p>That’s it for now. But as I said above, this is a living document. I will regularly add to it as people point things I’ve missed or new ideas catch my eye, and I’ll always change the date of the last update so people know if they should skim for something new.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

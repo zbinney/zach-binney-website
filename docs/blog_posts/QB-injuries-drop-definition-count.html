@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2017-03-27">
+
+<title>Zach Binney - Checking a Reported Drop in Starting QB Injuries in 2016: Definitions and Counts</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Zach Binney</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../consulting-and-collab.html">Consulting</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog-home.html">Sports Injury Blog</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#counting-quarterback-injuries" id="toc-counting-quarterback-injuries" class="nav-link active" data-scroll-target="#counting-quarterback-injuries">Counting Quarterback Injuries</a></li>
+  <li><a href="#a-small-wrinkle-early-injuries-beget-injuries" id="toc-a-small-wrinkle-early-injuries-beget-injuries" class="nav-link" data-scroll-target="#a-small-wrinkle-early-injuries-beget-injuries">A (Small?) Wrinkle: (Early) Injuries Beget Injuries</a></li>
+  <li><a href="#my-analysis-vs.-the-nfls" id="toc-my-analysis-vs.-the-nfls" class="nav-link" data-scroll-target="#my-analysis-vs.-the-nfls">My Analysis vs.&nbsp;the NFL’s</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">Limitations</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Checking a Reported Drop in Starting QB Injuries in 2016: Definitions and Counts</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 27, 2017</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>I saw a remarkable stat reported in Pro Football Talk (PFT) this morning: that starting QBs missed only 35 games in 2016, vs.&nbsp;76/77/59 in 2013-15, respectively. The claim is sourced to <a href="https://www.si.com/nfl/2017/03/27/las-vegas-raiders-replay-review-overtime-nfl-meetings">Peter King’s MMQB column this morning</a>, but unfortunately I haven’t been able to find a source document for the actual numbers. Per King, the NFL’s Competition Committee views these data as evidence the new QB protection rules are having their intended effect.</p>
+<p>Now that seemed like a huge drop to me. I did some quick calculations – Teddy Bridgewater (16 games) plus Tony Romo (10 games) plus Jay Cutler (11 games) alone gets us to 37 games missed by starting QBs in 2016. That’s already more than the number reported by King.</p>
+<p>Epidemiologists spend a large chunk of our time just counting things. As it turns out, that’s not grade school math. It’s really, really hard, and a correct count relies on counting a.) the right things and b.) doing so in a consistent manner. So I wanted to go into my injury data, sourced from <a href="pro-football-reference.com">Pro-Football-Reference</a>, and see if I could replicate the numbers reported by King (and, ostensibly, the NFL). Spoiler alert: I couldn’t really.</p>
+<section id="counting-quarterback-injuries" class="level2">
+<h2 class="anchored" data-anchor-id="counting-quarterback-injuries">Counting Quarterback Injuries</h2>
+<p>King’s column says the following about the numbers: “The NFL defines this statistical category as being games missed by the declared starting quarterback of a team. So even though, for example, Cody Kessler did not open 2016 as the starting quarterback, he was knocked out of two games that he started (concussions) and missed a total of four games because of them. Those count on this list.”</p>
+<p>Well, “declared starting quarterback” is a little vague, but it seems clear that you don’t have to be the week 1 starter to count in these stats. I’m missing some information, but I’m going to now define what I think the goal of this statistic is:</p>
+<p><strong>A count of games missed due to injury by a quarterback who, but for their injury, would have started the game that they are counted as missing.</strong></p>
+<p>This leads me to count both in-season injuries to starters and certain pre-regular-season injuries to major QBs. Consider Tony Romo and Teddy Bridgewater this year.</p>
+<p>Romo: Even though Romo never started a game this year despite being healthy late in the season, it’s pretty clear that he would have been the starter for Dallas after his recovery but for the amazing performance of Dak Prescott, so his games missed due to injury (i.e.&nbsp;the games he was unavailable/inactive for due to his back) should probably be counted.</p>
+<p>Bridgewater: He was the clear starter for this year before he suffered a horrifying knee injury in training camp. You’ve got to count him as missing 16 games unless you’re explicitly just counting in-season injuries, which it’s not clear the NFL was.</p>
+</section>
+<section id="a-small-wrinkle-early-injuries-beget-injuries" class="level2">
+<h2 class="anchored" data-anchor-id="a-small-wrinkle-early-injuries-beget-injuries">A (Small?) Wrinkle: (Early) Injuries Beget Injuries</h2>
+<p>Every week there have to be 32 starting QBs in the NFL (not counting byes). So consider the Vikings this year: we’re already dinging Bridgewater with 16 missed games, but other Vikings QBs, such as Sam Bradford, were still at risk of missing games due to injury every week. Meanwhile, a team like the Titans that only lost Mariota late in the year didn’t have those added chances for injuries. In epidemiologic terms, the Titans had less “time at risk” for accruing starting QB injuries.</p>
+<p>In layman’s terms, there’s the potential for a sort of multiplier effect on games missed of big injuries like Bridgewater and Romo, especially when they occur before the season begins. That’s a caveat that we need to consider.</p>
+<p>The best approach would be to standardize to an injury rate measure that accounts for this fact (e.g.&nbsp;missed games per 100 possible played games), but to maintain equality with the NFL’s simple counts I’m not going to do that here. Ultimately I think such an adjustment would have a <em>relatively</em> small effect, anyway: there are going to be 32 teams x 16 games per team = a minimum of 512 opportunities for a starting QB to get hurt, and we’re talking maybe 30-50 additional exposures from early season-ending injuries in an awful year.</p>
+</section>
+<section id="my-analysis-vs.-the-nfls" class="level2">
+<h2 class="anchored" data-anchor-id="my-analysis-vs.-the-nfls">My Analysis vs.&nbsp;the NFL’s</h2>
+<p>Using PFR’s team injury report pages (e.g.&nbsp;<a href="https://www.pro-football-reference.com/teams/mia/2016_injuries.htm">here</a>), I calculated the number of games missed for starting QBs from 2013-2016. Because definitions are important, here’s my definition of a starting QB:</p>
+<p>“A starting QB is any quarterback who started at least one game in the season for which we’re counting injuries. Likely starters who did not start a game the entire season as a result of their injury (2014: Sam Bradford; 2016: Tony Romo and Teddy Bridgewater) were also included.” This definition has limitations (see below), but here’s what I found:</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 40%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Year</strong></th>
+<th style="text-align: center;"><strong># Games Missed by Starting QBs – Me</strong></th>
+<th style="text-align: center;"><strong># Games Missed by Starting QBs – MMQB/NFL</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">2013</td>
+<td style="text-align: center;">90</td>
+<td style="text-align: center;">76</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2014</td>
+<td style="text-align: center;">98</td>
+<td style="text-align: center;">77</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2015</td>
+<td style="text-align: center;">89</td>
+<td style="text-align: center;">59</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2016</td>
+<td style="text-align: center;">85</td>
+<td style="text-align: center;">35</td>
+</tr>
+</tbody>
+</table>
+<p>Using my definition of a starting QB, we don’t see the dramatic decline reported by MMQB and PFT. Indeed, 2016 in our data is not out of line with any of the previous 3 seasons. (Ed. Note: this post and data was updated on 3/31/2017 to reflect the correction of a coding error that incorrectly listed Alex Smith the TE as Alex Smith the QB. Be careful, kids!). 2014 was the worst season of the last 4, when early major injuries to Sam Bradford, Matt Cassel, Carson Palmer, and Nick Foles ran up the score.</p>
+<p>That brings up another important point: say we even take the MMQB/NFL data at face value. A couple catastrophic injuries earlier in the season is all it takes to bring those numbers back in line with those from previous years. Imagine if Carr or Mariota’s freak injuries came in week 2 instead of week 16? How would these numbers look? That said, there’s a reasonable case to be made that increased QB safety delays as well as prevents QB injuries, so I don’t think this particular argument undermines the assertion that the QB protection rules are working.</p>
+<p>Regardless, I don’t find this to be particularly compelling evidence for the rules’ effectiveness. For one thing, why would they just really kick in in 2016?</p>
+<p>A far more likely explanation for the MMQB/NFL data are a combination of random chance and some exclusion criteria that conspired to artificially depress this year’s stats. I don’t have access to the raw data, but if I had to guess I’d say the NFL data probably excluded Bridgewater, Romo, and maybe RGIII and Geno Smith? That would drop my figure to 39, close to their figure of 35.</p>
+</section>
+<section id="limitations" class="level2">
+<h2 class="anchored" data-anchor-id="limitations">Limitations</h2>
+<p>My numbers are substantially higher across-the-board than the NFL’s, though the difference is starker in 2015 and <strong>especially</strong> 2016. I’m clearly tracking a somewhat different group than the NFL is in this stat, with the largest discrepancies (percentage-wise) in the last two years.</p>
+<p>Who’s tracking the “right” group? To be honest, it’s a thorny issue and I’m not willing to stand here and say my numbers are right and the ones reported in MMQB are wrong. The advantage of my approach is it uses clean, simple criteria that can be evenly applied across years.</p>
+<p>However, my numbers clearly include some backups (SEE table below). I couldn’t come up with a satisfactory, consistent criterion for inclusion beyond “started at least one game during the year or was an obvious starter but for a pre-season injury,” so I reluctantly left them in with the exception of a few egregious long-term cases (e.g.&nbsp;Jacoby Brissett in 2016).</p>
+<p>I am convinced that there’s some quirk in how the NFL tracks this stat that makes the 2016 drop look bigger than it is. They likely took a subtler, and perhaps a more judgement-dependent, approach than I did to classifying starting QBs. The advantage is you get to clear out the backups better, but are the criteria applied consistently overall? Do you accidentally catch some guys who should really be considered starters?</p>
+<p>Regardless, there’s just no way that 35-game figure is accurate; it’s too low to pass even the weakest smell test. Something is off there.</p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p><u><strong>I have major concerns about how “starting QB games missed due to injury” are counted in the MMQB and PFT reports; 35 games missed in 2016 is implausibly (impossibly?) low. I also don’t buy these numbers as strong evidence for the QB protection rules working for the reasons above as well as the unclear timing effect – why would they really kick in <em>this</em> year?</strong></u> That’s not to say they’re <em>not</em> working or I’m against the rules; I don’t know and I’m not, respectively.</p>
+<p>But I am against extrapolating beyond what the data can tell us, and any differences between years here are more likely the combined effects of random variation and inconsistent counting criteria.</p>
+<p>In the spirit of complete transparency, below is the table of QBs by year that I used to calculate the above figures. Play around with them! Add and delete players until you get to a group you’re comfortable with. I’m confident it would take quite a bit of torturing to get 35 games missed in 2016 but 70+ in 2013-14. As Jayne Cobb might say, “Best o’ luck, though.”</p>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+<p>The table below is all QBs with at least one start in the indicated season. I have marked players that I explicitly excluded, but you can add them back in if you want!</p>
+<table class="table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 13%">
+<col style="width: 24%">
+<col style="width: 35%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>QB</strong></td>
+<td><strong>Year</strong></td>
+<td><strong>Games Missed</strong></td>
+<td><strong>Excluded from count?</strong></td>
+</tr>
+<tr class="even">
+<td>Bradford,Sam</td>
+<td>2013</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Campbell,Jason</td>
+<td>2013</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Cousins,Kirk</td>
+<td>2013</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Cutler,Jay</td>
+<td>2013</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Flynn,Matt</td>
+<td>2013</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Foles,Nick</td>
+<td>2013</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Freeman,Josh</td>
+<td>2013</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Gabbert,Blaine</td>
+<td>2013</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Hoyer,Brian</td>
+<td>2013</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Keenum,Case</td>
+<td>2013</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Lewis,Thaddeus</td>
+<td>2013</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Locker,Jake</td>
+<td>2013</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Manuel,EJ</td>
+<td>2013</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Ponder,Christian</td>
+<td>2013</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Pryor,Terrelle</td>
+<td>2013</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Rodgers,Aaron</td>
+<td>2013</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Romo,Tony</td>
+<td>2013</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Schaub,Matt</td>
+<td>2013</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Vick,Michael</td>
+<td>2013</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Wallace,Seneca</td>
+<td>2013</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Weeden,Brandon</td>
+<td>2013</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bradford,Sam</td>
+<td>2014</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Bridgewater,Teddy</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Cassel,Matt</td>
+<td>2014</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Clausen,Jimmy</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Fitzpatrick,Ryan</td>
+<td>2014</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Foles,Nick</td>
+<td>2014</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Griffin,Robert</td>
+<td>2014</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Hill,Shaun</td>
+<td>2014</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Hoyer,Brian</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Locker,Jake</td>
+<td>2014</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Mallett,Ryan</td>
+<td>2014</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Manziel,Johnny</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>McCown,Josh</td>
+<td>2014</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>McCoy,Colt</td>
+<td>2014</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Mettenberger,Zach</td>
+<td>2014</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Newton,Cam</td>
+<td>2014</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Palmer,Carson</td>
+<td>2014</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Romo,Tony</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Smith,Alex</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Smith,Geno</td>
+<td>2014</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Stanton,Drew</td>
+<td>2014</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Vick,Michael</td>
+<td>2014</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Whitehurst,Charlie</td>
+<td>2014</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Bradford,Sam</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Brees,Drew</td>
+<td>2015</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Clausen,Jimmy</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Cutler,Jay</td>
+<td>2015</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Dalton,Andy</td>
+<td>2015</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Flacco,Joe</td>
+<td>2015</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Hasselbeck,Matt</td>
+<td>2015</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Hoyer,Brian</td>
+<td>2015</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Jones,Landry</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Kaepernick,Colin</td>
+<td>2015</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Keenum,Case</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Luck,Andrew</td>
+<td>2015</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Manning,Peyton</td>
+<td>2015</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Manziel,Johnny</td>
+<td>2015</td>
+<td>6</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mariota,Marcus</td>
+<td>2015</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>McCown,Josh</td>
+<td>2015</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>McCown,Luke</td>
+<td>2015</td>
+<td>8</td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td>Roethlisberger,Ben</td>
+<td>2015</td>
+<td>4</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Romo,Tony</td>
+<td>2015</td>
+<td>12</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Schaub,Matt</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Taylor,Tyrod</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Vick,Michael</td>
+<td>2015</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Weeden,Brandon</td>
+<td>2015</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Yates,T.J.</td>
+<td>2015</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Anderson,Derek</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Bridgewater,Teddy</td>
+<td>2016</td>
+<td>16</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Brissett,Jacoby</td>
+<td>2016</td>
+<td>12</td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td>Carr,Derek</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Cutler,Jay</td>
+<td>2016</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Garoppolo,Jimmy</td>
+<td>2016</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Griffin,Robert</td>
+<td>2016</td>
+<td>11</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Hoyer,Brian</td>
+<td>2016</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Kessler,Cody</td>
+<td>2016</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Luck,Andrew</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Mariota,Marcus</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>McCown,Josh</td>
+<td>2016</td>
+<td>3</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Newton,Cam</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Palmer,Carson</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Petty,Bryce</td>
+<td>2016</td>
+<td>6</td>
+<td>X</td>
+</tr>
+<tr class="odd">
+<td>Romo,Tony</td>
+<td>2016</td>
+<td>8</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Savage,Tom</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Siemian,Trevor</td>
+<td>2016</td>
+<td>2</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Smith,Alex</td>
+<td>2016</td>
+<td>1</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Smith,Geno</td>
+<td>2016</td>
+<td>9</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Tannehill,Ryan</td>
+<td>2016</td>
+<td>2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><br>
+</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

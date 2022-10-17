@@ -1,0 +1,173 @@
+---
+title: "Checking a Reported Drop in Starting QB Injuries in 2016: Definitions and Counts"
+date: "3/27/2017"
+---
+
+I saw a remarkable stat reported in Pro Football Talk (PFT) this morning: that starting QBs missed only 35 games in 2016, vs. 76/77/59 in 2013-15, respectively. The claim is sourced to [Peter King's MMQB column this morning](https://www.si.com/nfl/2017/03/27/las-vegas-raiders-replay-review-overtime-nfl-meetings), but unfortunately I haven't been able to find a source document for the actual numbers. Per King, the NFL's Competition Committee views these data as evidence the new QB protection rules are having their intended effect.
+
+Now that seemed like a huge drop to me. I did some quick calculations -- Teddy Bridgewater (16 games) plus Tony Romo (10 games) plus Jay Cutler (11 games) alone gets us to 37 games missed by starting QBs in 2016. That's already more than the number reported by King.
+
+Epidemiologists spend a large chunk of our time just counting things. As it turns out, that's not grade school math. It's really, really hard, and a correct count relies on counting a.) the right things and b.) doing so in a consistent manner. So I wanted to go into my injury data, sourced from [Pro-Football-Reference](pro-football-reference.com), and see if I could replicate the numbers reported by King (and, ostensibly, the NFL). Spoiler alert: I couldn't really.
+
+## Counting Quarterback Injuries
+
+King's column says the following about the numbers: "The NFL defines this statistical category as being games missed by the declared starting quarterback of a team. So even though, for example, Cody Kessler did not open 2016 as the starting quarterback, he was knocked out of two games that he started (concussions) and missed a total of four games because of them. Those count on this list."
+
+Well, "declared starting quarterback" is a little vague, but it seems clear that you don't have to be the week 1 starter to count in these stats. I'm missing some information, but I'm going to now define what I think the goal of this statistic is:
+
+**A count of games missed due to injury by a quarterback who, but for their injury, would have started the game that they are counted as missing.**
+
+This leads me to count both in-season injuries to starters and certain pre-regular-season injuries to major QBs. Consider Tony Romo and Teddy Bridgewater this year.
+
+Romo: Even though Romo never started a game this year despite being healthy late in the season, it's pretty clear that he would have been the starter for Dallas after his recovery but for the amazing performance of Dak Prescott, so his games missed due to injury (i.e. the games he was unavailable/inactive for due to his back) should probably be counted.
+
+Bridgewater: He was the clear starter for this year before he suffered a horrifying knee injury in training camp. You've got to count him as missing 16 games unless you're explicitly just counting in-season injuries, which it's not clear the NFL was.
+
+## A (Small?) Wrinkle: (Early) Injuries Beget Injuries
+
+Every week there have to be 32 starting QBs in the NFL (not counting byes). So consider the Vikings this year: we're already dinging Bridgewater with 16 missed games, but other Vikings QBs, such as Sam Bradford, were still at risk of missing games due to injury every week. Meanwhile, a team like the Titans that only lost Mariota late in the year didn't have those added chances for injuries. In epidemiologic terms, the Titans had less "time at risk" for accruing starting QB injuries.
+
+In layman's terms, there's the potential for a sort of multiplier effect on games missed of big injuries like Bridgewater and Romo, especially when they occur before the season begins. That's a caveat that we need to consider.
+
+The best approach would be to standardize to an injury rate measure that accounts for this fact (e.g. missed games per 100 possible played games), but to maintain equality with the NFL's simple counts I'm not going to do that here. Ultimately I think such an adjustment would have a *relatively* small effect, anyway: there are going to be 32 teams x 16 games per team = a minimum of 512 opportunities for a starting QB to get hurt, and we're talking maybe 30-50 additional exposures from early season-ending injuries in an awful year.
+
+## My Analysis vs. the NFL's
+
+Using PFR's team injury report pages (e.g. [here](https://www.pro-football-reference.com/teams/mia/2016_injuries.htm)), I calculated the number of games missed for starting QBs from 2013-2016. Because definitions are important, here's my definition of a starting QB:
+
+"A starting QB is any quarterback who started at least one game in the season for which we're counting injuries. Likely starters who did not start a game the entire season as a result of their injury (2014: Sam Bradford; 2016: Tony Romo and Teddy Bridgewater) were also included." This definition has limitations (see below), but here's what I found:
+
+| **Year** | **\# Games Missed by Starting QBs -- Me** | **\# Games Missed by Starting QBs -- MMQB/NFL** |
+|:----------------:|:---------------------------:|:-----------------------:|
+|   2013   |                    90                     |                       76                        |
+|   2014   |                    98                     |                       77                        |
+|   2015   |                    89                     |                       59                        |
+|   2016   |                    85                     |                       35                        |
+
+Using my definition of a starting QB, we don't see the dramatic decline reported by MMQB and PFT. Indeed, 2016 in our data is not out of line with any of the previous 3 seasons. (Ed. Note: this post and data was updated on 3/31/2017 to reflect the correction of a coding error that incorrectly listed Alex Smith the TE as Alex Smith the QB. Be careful, kids!). 2014 was the worst season of the last 4, when early major injuries to Sam Bradford, Matt Cassel, Carson Palmer, and Nick Foles ran up the score.
+
+That brings up another important point: say we even take the MMQB/NFL data at face value. A couple catastrophic injuries earlier in the season is all it takes to bring those numbers back in line with those from previous years. Imagine if Carr or Mariota's freak injuries came in week 2 instead of week 16? How would these numbers look? That said, there's a reasonable case to be made that increased QB safety delays as well as prevents QB injuries, so I don't think this particular argument undermines the assertion that the QB protection rules are working.
+
+Regardless, I don't find this to be particularly compelling evidence for the rules' effectiveness. For one thing, why would they just really kick in in 2016?
+
+A far more likely explanation for the MMQB/NFL data are a combination of random chance and some exclusion criteria that conspired to artificially depress this year's stats. I don't have access to the raw data, but if I had to guess I'd say the NFL data probably excluded Bridgewater, Romo, and maybe RGIII and Geno Smith? That would drop my figure to 39, close to their figure of 35.
+
+## Limitations
+
+My numbers are substantially higher across-the-board than the NFL's, though the difference is starker in 2015 and **especially** 2016. I'm clearly tracking a somewhat different group than the NFL is in this stat, with the largest discrepancies (percentage-wise) in the last two years.
+
+Who's tracking the "right" group? To be honest, it's a thorny issue and I'm not willing to stand here and say my numbers are right and the ones reported in MMQB are wrong. The advantage of my approach is it uses clean, simple criteria that can be evenly applied across years.
+
+However, my numbers clearly include some backups (SEE table below). I couldn't come up with a satisfactory, consistent criterion for inclusion beyond "started at least one game during the year or was an obvious starter but for a pre-season injury," so I reluctantly left them in with the exception of a few egregious long-term cases (e.g. Jacoby Brissett in 2016).
+
+I am convinced that there's some quirk in how the NFL tracks this stat that makes the 2016 drop look bigger than it is. They likely took a subtler, and perhaps a more judgement-dependent, approach than I did to classifying starting QBs. The advantage is you get to clear out the backups better, but are the criteria applied consistently overall? Do you accidentally catch some guys who should really be considered starters?
+
+Regardless, there's just no way that 35-game figure is accurate; it's too low to pass even the weakest smell test. Something is off there.
+
+## Conclusions
+
+[**I have major concerns about how "starting QB games missed due to injury" are counted in the MMQB and PFT reports; 35 games missed in 2016 is implausibly (impossibly?) low. I also don't buy these numbers as strong evidence for the QB protection rules working for the reasons above as well as the unclear timing effect -- why would they really kick in *this* year?**]{.underline} That's not to say they're *not* working or I'm against the rules; I don't know and I'm not, respectively.
+
+But I am against extrapolating beyond what the data can tell us, and any differences between years here are more likely the combined effects of random variation and inconsistent counting criteria.
+
+In the spirit of complete transparency, below is the table of QBs by year that I used to calculate the above figures. Play around with them! Add and delete players until you get to a group you're comfortable with. I'm confident it would take quite a bit of torturing to get 35 games missed in 2016 but 70+ in 2013-14. As Jayne Cobb might say, "Best o' luck, though."
+
+## Appendix
+
+The table below is all QBs with at least one start in the indicated season. I have marked players that I explicitly excluded, but you can add them back in if you want!
+
+|                    |          |                  |                          |
+|--------------------|----------|------------------|--------------------------|
+| **QB**             | **Year** | **Games Missed** | **Excluded from count?** |
+| Bradford,Sam       | 2013     | 9                |                          |
+| Campbell,Jason     | 2013     | 1                |                          |
+| Cousins,Kirk       | 2013     | 1                |                          |
+| Cutler,Jay         | 2013     | 5                |                          |
+| Flynn,Matt         | 2013     | 1                |                          |
+| Foles,Nick         | 2013     | 1                |                          |
+| Freeman,Josh       | 2013     | 2                |                          |
+| Gabbert,Blaine     | 2013     | 5                |                          |
+| Hoyer,Brian        | 2013     | 11               |                          |
+| Keenum,Case        | 2013     | 2                |                          |
+| Lewis,Thaddeus     | 2013     | 2                |                          |
+| Locker,Jake        | 2013     | 9                |                          |
+| Manuel,EJ          | 2013     | 6                |                          |
+| Ponder,Christian   | 2013     | 5                |                          |
+| Pryor,Terrelle     | 2013     | 4                |                          |
+| Rodgers,Aaron      | 2013     | 7                |                          |
+| Romo,Tony          | 2013     | 1                |                          |
+| Schaub,Matt        | 2013     | 2                |                          |
+| Vick,Michael       | 2013     | 5                |                          |
+| Wallace,Seneca     | 2013     | 7                |                          |
+| Weeden,Brandon     | 2013     | 4                |                          |
+| Bradford,Sam       | 2014     | 16               |                          |
+| Bridgewater,Teddy  | 2014     | 1                |                          |
+| Cassel,Matt        | 2014     | 2                |                          |
+| Clausen,Jimmy      | 2014     | 1                |                          |
+| Fitzpatrick,Ryan   | 2014     | 2                |                          |
+| Foles,Nick         | 2014     | 8                |                          |
+| Griffin,Robert     | 2014     | 6                |                          |
+| Hill,Shaun         | 2014     | 5                |                          |
+| Hoyer,Brian        | 2014     | 1                |                          |
+| Locker,Jake        | 2014     | 6                |                          |
+| Mallett,Ryan       | 2014     | 5                |                          |
+| Manziel,Johnny     | 2014     | 1                |                          |
+| McCown,Josh        | 2014     | 5                |                          |
+| McCoy,Colt         | 2014     | 2                |                          |
+| Mettenberger,Zach  | 2014     | 3                |                          |
+| Newton,Cam         | 2014     | 2                |                          |
+| Palmer,Carson      | 2014     | 10               |                          |
+| Romo,Tony          | 2014     | 1                |                          |
+| Smith,Alex         | 2014     | 1                |                          |
+| Smith,Geno         | 2014     | 2                |                          |
+| Stanton,Drew       | 2014     | 3                |                          |
+| Vick,Michael       | 2014     | 1                |                          |
+| Whitehurst,Charlie | 2014     | 3                |                          |
+| Bradford,Sam       | 2015     | 2                |                          |
+| Brees,Drew         | 2015     | 1                |                          |
+| Clausen,Jimmy      | 2015     | 2                |                          |
+| Cutler,Jay         | 2015     | 1                |                          |
+| Dalton,Andy        | 2015     | 3                |                          |
+| Flacco,Joe         | 2015     | 6                |                          |
+| Hasselbeck,Matt    | 2015     | 1                |                          |
+| Hoyer,Brian        | 2015     | 3                |                          |
+| Jones,Landry       | 2015     | 2                |                          |
+| Kaepernick,Colin   | 2015     | 7                |                          |
+| Keenum,Case        | 2015     | 2                |                          |
+| Luck,Andrew        | 2015     | 9                |                          |
+| Manning,Peyton     | 2015     | 6                |                          |
+| Manziel,Johnny     | 2015     | 6                |                          |
+| Mariota,Marcus     | 2015     | 4                |                          |
+| McCown,Josh        | 2015     | 8                |                          |
+| McCown,Luke        | 2015     | 8                | X                        |
+| Roethlisberger,Ben | 2015     | 4                |                          |
+| Romo,Tony          | 2015     | 12               |                          |
+| Schaub,Matt        | 2015     | 2                |                          |
+| Taylor,Tyrod       | 2015     | 2                |                          |
+| Vick,Michael       | 2015     | 3                |                          |
+| Weeden,Brandon     | 2015     | 1                |                          |
+| Yates,T.J.         | 2015     | 2                |                          |
+| Anderson,Derek     | 2016     | 1                |                          |
+| Bridgewater,Teddy  | 2016     | 16               |                          |
+| Brissett,Jacoby    | 2016     | 12               | X                        |
+| Carr,Derek         | 2016     | 1                |                          |
+| Cutler,Jay         | 2016     | 11               |                          |
+| Garoppolo,Jimmy    | 2016     | 2                |                          |
+| Griffin,Robert     | 2016     | 11               |                          |
+| Hoyer,Brian        | 2016     | 9                |                          |
+| Kessler,Cody       | 2016     | 2                |                          |
+| Luck,Andrew        | 2016     | 1                |                          |
+| Mariota,Marcus     | 2016     | 1                |                          |
+| McCown,Josh        | 2016     | 3                |                          |
+| Newton,Cam         | 2016     | 1                |                          |
+| Palmer,Carson      | 2016     | 1                |                          |
+| Petty,Bryce        | 2016     | 6                | X                        |
+| Romo,Tony          | 2016     | 8                |                          |
+| Savage,Tom         | 2016     | 1                |                          |
+| Siemian,Trevor     | 2016     | 2                |                          |
+| Smith,Alex         | 2016     | 1                |                          |
+| Smith,Geno         | 2016     | 9                |                          |
+| Tannehill,Ryan     | 2016     | 2                |                          |
+
+\
+

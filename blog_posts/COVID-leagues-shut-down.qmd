@@ -1,0 +1,68 @@
+---
+title: "What Should Make Returning Leagues Shut Down for COVID-19?"
+date: "6/30/2020"
+---
+
+**Updated 7/2/2020 at 2:00pm ET**
+
+With many U.S. sports leagues proposing return plans in a country with ongoing rampant spread of COVID-19, everybody (well, every journalist who interviews me) is wondering "What's the red line? What would mean they have to shut down again?"
+
+I've been revising and polishing my thoughts as I talk with journalists and colleagues. Here's a summary of my current thinking:
+
+## First, Consult Your Values
+
+The [Women's Flat Track Derby Association (WFTDA)](https://resources.wftda.org/covid-19/) -- which you may know better as Roller Derby -- has one of the best return to sport plans I've seen. They decided to construct their plan around the motto "Lives Before Laces" -- they're an athlete-run organization, and they want to maintain a very low level of risk for their members if and when any leagues return. Consequently, they say *one detected case* among anybody associated with the league is enough to send everything back to square one and shut it down for a minimum of two weeks. I 100% respect that.
+
+But I also think that in larger, well-resourced leagues with regular testing that has a decent chance at cutting off transmission quickly it's fair to set your threshold above one case because the fact is with the level of virus we have in this country someone in your league is going to turn up sick -- whether or not you come back. If you're a pro league trying to return and you set your threshold at one case, what are you doing? You'll have to suspend almost immediately, I promise. Don't bother coming back. Again, not coming back is a totally defensible choice, I'm just saying don't come back *and* set such a low threshold.
+
+## How Many Cases in Your League is Too Many? Well, It Depends.
+
+There are two main scenarios to worry about here:
+
+1.  Creating a higher risk environment.
+
+2.  Creating an outbreak.
+
+Let's take each in turn.
+
+1.  First, how do you know when you have a "higher-risk environment?" Players and staff, particularly in areas with rampant viral spread, can get sick from events in their daily lives that have nothing to do with the league. Epidemiologists love to think in [counterfactuals](https://nflinjuryanalytics.com/2016/10/24/nfl-suicides-keanu-reeves-and-the-ideal-scientific-study/) -- in simple terms, what is the risk to players and staff if a.) the league returns or b.) it doesn't. If a.) is higher than b.) you have a higher-risk environment. Good news: a.) is fairly easy to measure if you're doing regular testing. But b.) is harder -- it's the counterfactual of what *would* happen if you didn't return.
+
+    The best proxy we have for b.) is results from initial tests of players and staff immediately after they return to team facilities because these cases represent infections they overwhelmingly picked up in the community just living their lives.
+
+    For players, in the first round of testing in both the [NHL](https://bleacherreport.com/articles/2896919-nhl-announces-11-players-out-of-over-200-have-tested-positive-for-covid-19) and [NBA](https://twitter.com/zbinney_NFLinj/status/1276534659946631169) about 5% of players tested positive; those positives probably represent infections picked up in about the prior 2 weeks. This is slightly complicated by the fact that some of these players were probably only doing risky things, like playing pickup games, because they knew the league was coming back, so drop that number a little bit. **If the NBA or NHL saw \<4% of players testing positive in a 2-week period while they were operating, you could argue they should continue as they're not adding risk above and beyond what the players would've been experiencing absent a return.** MLB could do similar calculations.
+
+    For staff, only the [NBA has released data](https://twitter.com/wojespn/status/1278729053877436416?s=20), and it's remarkable -- while in the first week (multiple rounds) of testing 7.1% of players tested positive, just *1.1% of staff* did*.* That's a huge gap! Setting aside the causes of that -- I'm guessing it's players having more daily contacts based on some combination of things they feel they need to do to prepare and optional behavioral choices -- that indicates the threshold for creating a "higher-risk environment" for staff is far lower than it is for players. **The NBA would need to see \<1% of staff testing positive in a 2-week period while they were operating to argue they should continue as they're not adding risk above and beyond what the staff would've been experiencing absent a return.**
+
+    This seems doable -- in this case the NBA in their bubble could have a couple positive tests a week and still be doing OK by this standard. But there's another wrinkle:
+
+2.  The Outbreak. What I'm watching for is 3-4 cases *on the same team* in rapid succession. That suggests spread through a team that isn't contained and could quickly explode beyond your ability to control even with testing. Even if your *league* is still well below your 4%-in-two-weeks (or whatever) threshold, the point is you could be poised to rocket above it and need to take immediate action. In this case the *team* needs to be shut down for 2 weeks and everybody quarantined separately.
+
+    If I saw 3-4 cases in rapid succession on 2+ teams I'd be worried for the potential of multiple leaguewide outbreaks and at that point advise a total and complete shutdown of the *league* and individual quarantines for two weeks.
+
+To be clear: if you ever exceed *either* of these criteria, you should shut down a team or the whole league.
+
+## Are Those the Only Reasons Leagues Should Shut Down?
+
+No. Let's revisit the Roller Derby plan for a moment. Perhaps the thing I love most about it is they base whether they can even restart on the situation in the community around them -- hospital space has to be plentiful and there have to be \<5 new cases per 10,000 population a day, for example. None of the Big 4 leagues or MLS has talked explicitly about their surrounding communities like this. But they should.
+
+Take the NBA, for example, with the Orlando bubble plan. Cases are spiking there right now. But even if they kept cases *entirely* out of their bubble, could they continue no matter what? No. If hospitals get overwhelmed, for example, and a player got injured they'd be drawing away desperately needed medical resources. Maybe a more likely scenario is that the test positive percentage continues to rise in Orlando, indicating a severe lack of tests for those who need them. Even if you're distributing *some* of the tests you have to the community, how long can the NBA sit in their bubble testing everybody every day while there's a shortage around them? And what if, as we're already starting to see in some places, labs are over capacity and have to start prioritizing certain groups like healthcare workers for 1-day results? The NBA -- which is partnering with Quest Laboratories -- would be left to either jump the line or not get the timely results they need to cut off transmission chains quickly (a 3-5 day turnaround for tests would substantially weaken the safety protocols inside the bubble because it would take longer to identify and isolate cases). The shortage and capacity issues aren't their fault, but at some point everybody has to sit down and look at themselves in the mirror and ask themselves if what they're doing is still OK. That's a bit wishy-washy, maybe, but it's true.
+
+(Some may argue MLB is in a slightly better position here because they're conducting tests at their own bespoke lab in Utah, but that lab could still theoretically be re-tasked with helping other overwhelmed labs, so I don't see that much of a difference.)
+
+## Should Leagues Be Drawing Red Lines?
+
+The reality is leagues are not drawing strict, objective lines in the sand. It's understandable, honestly -- case numbers in the league, the distribution of those cases, case numbers in the community, test positive percentages, and hospitalizations all matter, so you can't just set one number for a go-no go. It would be great if you could have an independent group of experts who can synthesize all of that complex information together into a coherent picture and tell you whether you may or may not continue.
+
+The sharper among you might say "Hey, that sounds like a local or state public health department, right?" Yes. I love my colleagues in those places and have no criticisms for any of the scientists who work there. *Any* of them. They're doing superhuman work the absolute best they can. But I think it's also fair to be realistic and say I have *uneven* faith in their ability and willingness to make these sorts of decisions in the current environment.
+
+Here's an alternative: in clinical trials we have this thing called a Data Safety and Monitoring Board. This is basically a group of independent medical experts and advocates who regularly monitor a clinical trial and, if they see a lot of what we call "adverse events" (like death, or heart attacks) with a new drug are empowered to stop the trial. Similarly, you could envision an independent committee with veto power over the commissioner for COVID-19 safety. It would be hard -- you'd need a solid majority of truly independent experts with no past work or likely future work with the league, they should be paid upfront, and they'd need unilateral power to shut things down whenever they feel like it. But I think this would be the most moral way to do it.
+
+What leagues are doing instead is basically saying "we'll know it when we see it" and vesting their commissioners with the power to shut things down. Due to the money involved, though, there's going to be the temptation to push things farther than they should be. I don't think anyone can reasonably argue with that. So, that's the downside of not having an objective red line everyone can hold you to or an independent board.
+
+Editorializing a bit, I'm more comfortable with vesting this power in Adam Silver and the NBA than other leagues. They were the first to suspend play back in March and, for my money, did it when they should have. They've also put together a solid bubble-based plan. Commissioner Silver has earned the benefit of the doubt from me.
+
+## Conclusions
+
+OK, that's it. Only took me 1,500 words or so to run through the ins and outs. It's quite a simple issue, really.
+
+First, you need to be seeing fewer cases among your players and staff than you would have if you hadn't restarted. Second, shut the team or league down if you see an outbreak (3-4 cases on one or multiple teams in a few day span). Third, ensure you're not hoarding tests or medical resources that your communities need. Finally, write down and publicize an objective red line or, if you feel the situation is too complex, empower an independent board of experts to make shutdown decisions; leaving commissioners to "know it when they see it" may tempt you to push things too far.

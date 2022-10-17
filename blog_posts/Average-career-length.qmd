@@ -1,0 +1,22 @@
+---
+title: "What is the average NFL career length? 5.5-6 Years."
+date: "1/28/2022"
+---
+
+The average NFL career length is approximately 5.5-6 years, with the median around 5 years.
+
+This is my attempt to search engine optimize the *correct* answer to a *common mistaken statistic* people cite from the NFL Players\' Association (NFLPA).
+
+The NFLPA -- and innumerable and innumerate media sources -- claim the average NFL career is around 3.5 years. The NFLPA uses this low number to bolster its case for paying players more, since they need to make as much money as they can as quickly as they can. I support NFL players getting more money -- and generally the unions over the bosses in all instances -- but this number is simply wrong.
+
+The simplest explanation for why this is wrong is to think about **average (or median) age** vs. **life expectancy.**
+
+Right now, per the U.S. Census the median age of Americans is [about 38 years](https://www.census.gov/library/stories/2019/06/median-age-does-not-tell-the-whole-story.html) -- meaning half are over 38 and half are under 38. In NFL terms, this translates roughly to the *average years of experience of all players at this point in time* -- which is, in fact, about 3.5 years! This is the statistic the NFLPA trots out.
+
+But when we ask how long an NFL player\'s career is, on average, what we want isn\'t analogous to the average age of a population -- it\'s more like life expectancy, or how long an American can expect to live on average. For someone born today, we can expect them to live [about 77.0 years on average](https://www.cdc.gov/nchs/fastats/life-expectancy.htm) -- roughly *twice* the median age of the U.S. population!
+
+So the NFLPA\'s number of 3.5 years for the average career is wrong because it mixes up the average experience of NFL players at any point in time (average age) with how long an average career is (life expectancy).
+
+[Here is a source](https://www.footballoutsiders.com/stat-analysis/2016/are-nfl-careers-really-getting-shorter) for why it is instead 5.5-6 years in case you\'re curious for more details.
+
+OK. End statistical rant.

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2016-11-06">
+
+<title>Zach Binney - The Effects of Eliminating ‘Probable’ from the NFL Injury Report</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Zach Binney</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching.html">Teaching</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../consulting-and-collab.html">Consulting</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog-home.html">Sports Injury Blog</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#an-injury-report-intro" id="toc-an-injury-report-intro" class="nav-link active" data-scroll-target="#an-injury-report-intro">An Injury Report Intro</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#alright-enough-already-what-happened-with-the-2016-injury-reports" id="toc-alright-enough-already-what-happened-with-the-2016-injury-reports" class="nav-link" data-scroll-target="#alright-enough-already-what-happened-with-the-2016-injury-reports">Alright, Enough Already! What Happened with the 2016 Injury Reports?</a></li>
+  <li><a href="#how-often-do-questionable-players-play-now" id="toc-how-often-do-questionable-players-play-now" class="nav-link" data-scroll-target="#how-often-do-questionable-players-play-now">How Often do Questionable Players Play Now?</a></li>
+  <li><a href="#conclusions-and-next-steps" id="toc-conclusions-and-next-steps" class="nav-link" data-scroll-target="#conclusions-and-next-steps">Conclusions and Next Steps</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The Effects of Eliminating ‘Probable’ from the NFL Injury Report</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 6, 2016</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>Less than a month before the season began, the NFL announced a few substantial changes to how it handled injuries. The biggest one – at least from a fan(tasy football) perspective – was a modification to the game status report component of the NFL injury report: eliminating the “Probable” designation for how likely players are to play in their upcoming game.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>I wasn’t sure how this change would affect NFL injury reports, so I’ve been eagerly waiting to amass enough data to examine this rule change. Now that we’ve got a half season let’s take a look at the data!</p>
+<section id="an-injury-report-intro" class="level2">
+<h2 class="anchored" data-anchor-id="an-injury-report-intro">An Injury Report Intro</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/tps-report.png" class="img-fluid figure-img" alt="Cover sheet of a TPS report from Initech." style="width:30.0%"></p>
+<p></p><figcaption class="figure-caption"><em>Artist’s rendering of an NFL injury report.</em></figcaption><p></p>
+</figure>
+</div>
+<p>To start, though, let me make sure everyone is on the same page about a few intricacies of the NFL’s injury report. <a href="https://operations.nfl.com/media/2235/06-07-16-2016-injury-report-policy.pdf">The “NFL Injury Report” is actually three separate documents</a>:</p>
+<ol type="1">
+<li><p>Practice Reports – these are reports given by teams on Wednesday, Thursday, and Friday (for teams with Sunday games)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> that lists the practice status of all players with “significant or noteworthy injuries.” This language does give teams some wiggle room on <em>exactly</em> whom they put on their reports. Some teams, but not all (as far as I can tell), even regularly list players (mostly veterans) who just miss a practice for scheduled rest. Each injured player gets one of the following designations each day:</p>
+<ul>
+<li>Did Not Participate</li>
+<li>Limited Participation</li>
+<li>Full Participation</li>
+</ul>
+<p>You could previously also have been listed as “Out,” but that was also eliminated in 2016 to avoid confusion with the Game Status Report.</p></li>
+</ol>
+<!-- -->
+<ol start="2" type="1">
+<li><p>Game Status Reports – these are reports given by teams on Friday for Sunday games (or Wednesday/Saturday for Thursday/Monday games). They list a projection for how likely an injured player is to play in the team’s upcoming game. Of note, a player listed on the practice report does <em>not</em> have to appear on the game status report if they are certain to play. The game status designations are:</p>
+<ul>
+<li>Questionable</li>
+<li>Doubtful</li>
+<li>Out</li>
+</ul>
+<p>As noted above, through 2015 “Probable” was a fourth option, but the NFL eliminated that this year.</p></li>
+<li><p>In-Game Injury Report – exactly what it sounds like. We won’t waste more time on it here as it’s not pertinent to our questions.</p></li>
+</ol>
+<p><u>Impact of Change</u>: There were a <em>lot</em> of prognostications about the effects of this change. I was…uncertain. The players previously named as “Probable” could have followed one of two paths: “Questionable” or off the game status report entirely.</p>
+<p>Path 1: The new rule could result in a <em>lot</em> more “Questionable” tags, since the NFL can get a bit investigate-y if a player not on the game status report unexpectedly doesn’t play.</p>
+<p>Path 2: On the other hand, 90% or more of players marked “Probable” in a given week did in fact play in the team’s next game, so maybe they’d fall off the injury report entirely without a “Probable” designation.</p>
+<p>I really wasn’t sure what to expect, and I thought different teams would probably take different tacks. (Unfortunately, I don’t think we have enough data to stratify by teams yet).</p>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data Sources</h2>
+<p>I scraped injury report information from <a href="http://www.foxsports.com/nfl/injuries?season=2016&amp;seasonType=1&amp;week=4">Fox Sports weekly pages like this one</a> for the first 8 weeks of the 2013-2016 seasons.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> In addition to the Questionable/Doubtful/Out designations we would expect, Fox has a “Day-to-Day” listing which, from cross-referencing with other sources, appears to be a weird mix of “not badly hurt enough to appear on the game status report” and “on injured reserve” (IR) (a special list that teams use to stash severely hurt players they would like to keep but not spend an active roster spot on). Because we just wanted to focus on the three categories for the game status report, I excluded all Day-to-Day and IR listings from my analysis.</p>
+<p>I also wanted to calculate the percent of players with each designation who were active or inactive in a given week. The <a href="https://www.nfl.com/inactives/">NFL has data on inactive players readily available for 2016</a>, but historical inactive data is harder to come by. I settled on scraping the 2015 data from FFToolbox (for example, <a href="https://www.fftoday.com/nfl/15_inactives_wk7.html">here</a>). I did not pull data for 2013 or 2014. I know I’m <a href="../blog_posts/Fewer-concs-in-2016-uncertainty.html">breaking my own rule for not presenting data from only two years</a>, but it will still provide an instructive comparison between the old and new injury reports, and I don’t think we’ve seen a lot of year-to-year variation in the inactive percentages of each designation.</p>
+</section>
+<section id="alright-enough-already-what-happened-with-the-2016-injury-reports" class="level2">
+<h2 class="anchored" data-anchor-id="alright-enough-already-what-happened-with-the-2016-injury-reports">Alright, Enough Already! What Happened with the 2016 Injury Reports?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/injury-reports-by-year.png" class="img-fluid figure-img" alt="Count of Player weeks on injury report by injury status, weeks 1-8 of each season 2013-2016." style="width:100.0%"></p>
+</figure>
+</div>
+<p>Obviously the probable bar went to zero in 2016 as the designation was eliminated. In previous years, the total number of probable and questionable player-weeks was 1,706 (2013), 1,592 (2014), and 1,427 (2015). On average, these years saw 1,083 probable and 492 questionable player-weeks. In 2015 there were 970 probable and 457 questionable player-weeks.</p>
+<p>In 2016, meanwhile, we saw just 805 questionable player-weeks. If we assume we would’ve seen the same data in 2016 as 2015 if “Probable” hadn’t been removed (likely not a perfectly reasonable assumption because of random variation from year to year), it looks like <u>about 30-35% of “Probable” player-weeks went into the “Questionable” category and the remainder fell off the report</u>. Neat.</p>
+<p>As a sidenote, you might notice that the number of player-weeks on the game status reports shrank each year from 2013-2015, especially 2014-2015. It’s a bit hard to see in this graph, but I’ve also added 95% confidence limits to each category to help give us an idea of whether this is beyond the random year-to-year variation we might expect.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> The biggest decrease was a 12.5% drop in “Probable” designations from 2014-15. This might mark a trend of less reliance on the Probable category before this season, but I’m still inclined to say it’s random variation.</p>
+<p>I was also curious whether there would also be a tendency to push everyone down the game status list (e.g.&nbsp;2015 questionable becomes 2016 doubtful). Doubtful designations are basically unchanged while Out designations are up somewhat (377, 452, 459, and 493 player-weeks from 2013-2016) but 2016’s numbers are within the confidence intervals for 2014-15. That doesn’t provide much evidence for this kind of trend.</p>
+</section>
+<section id="how-often-do-questionable-players-play-now" class="level2">
+<h2 class="anchored" data-anchor-id="how-often-do-questionable-players-play-now">How Often do Questionable Players Play Now?</h2>
+<p>The official League definition of “Questionable” now is <a href="https://operations.nfl.com/media/2235/06-07-16-2016-injury-report-policy.pdf">“uncertain that the player will play.”</a> Well, that’s…vague. Previously the League said 75% of Probable, 50% of Questionable, and 25% of Doubtful players should play, but these percentages – which weren’t all that accurate, anyway, to be fair – are now gone. So what does Questionable mean in 2016?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./blog_img/percent-playing-15-16.jpg" class="img-fluid figure-img" alt="Probability of Player Listed With Each Status Playing That Week, Weeks 1 to 8 of Each Season 2015 and 2016." style="width:100.0%"></p>
+</figure>
+</div>
+<p>Turns out a “Questionable” designation used to mean that, on average, you had about about a 60-65% chance of playing that week<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, though <a href="https://www.footballoutsiders.com/stat-analysis/2016/2015-adjusted-games-lost">this varies a <em>lot</em> by team</a>. Now it means, on average, you have about a 73% chance of playing each week. That’s a substantial difference. Given the relative numbers of Probable and Questionable designations in the past few seasons, this is just a tick lower than what we’d expect to see if 30-35% of Probables were now Questionable – but that makes sense since many of the Probables who became Questionables were probably “more hurt” Probables (i.e.&nbsp;their risk of missing a game was likely above the overall Probable average).</p>
+<p>Regardless, the Questionable designation was already a tough-to-predict hodgepodge before this year, and it’s only gotten more heterogeneous.</p>
+</section>
+<section id="conclusions-and-next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions-and-next-steps">Conclusions and Next Steps</h2>
+<p>From the data so far, my best guess is about 30-35% of the player-weeks that would have previously been categorized as “Probable” went into the “Questionable” category and the remainder fell off the game status report. Furthermore, Questionable players now play closer to 75% of the time rather than the 55-65% we’ve seen historically.</p>
+<p>There’s still a lot more we can do with this data! My next post, for example, will focus on whether, in this brave new world without a “Probable” category, we can differentiate between the “Questionable” players more and less likely to suit up on game day.</p>
+<p>It would also be interesting to see how different teams are reacting differently to these changes (in 2015 teams <a href="https://www.footballoutsiders.com/stat-analysis/2016/2015-adjusted-games-lost">ranged from 31-85%</a> of their Questionable designations ultimately playing, and that may vary even more now), but I’d really like a full season before doing that stratification.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1" role="doc-endnote"><p>The NFL also eliminated the “Out” category from the practice status reports to avoid confusion with the game status reports. Additionally, they tweaked the rules for the injured reserve list: teams were previously allowed to recall one player from the list to the active roster each season, but they had to specify the player at the time they went on injured reserve. Now they can designate them for return when they actually want them back.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>For Thursday games, these reports are issued Tuesday and Wednesday. For Monday games, Thursday, Friday, and Saturday.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>I initially tried to pull data from <a href="https://www.pro-football-reference.com/">Pro-Football-Reference</a> (PFR) team pages (like <a href="https://www.pro-football-reference.com/teams/mia/2015_injuries.htm">this one</a>) for 2009-2016. However, PFR’s injury data was a.) incomplete for 2016’s first 8 weeks and b.) looked a bit funky for 2014 and earlier. The data exhibited a huge sudden jump in overall player-weeks on the injury report between 2011 and 2012, which I’m concerned had to do with <a href="https://www.footballoutsiders.com/stat-analysis/2016/are-nfl-careers-really-getting-shorter">changes to PFR data collection/tracking procedures</a> rather than a true change. Also, from 2009-2014 there are 50-100% more questionable than probable designations each year, which doesn’t seem right. There should be way more probable designations.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>For the stats nerds, I considered each injury category as a count and calculated exact Poisson confidence intervals.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>As noted above I didn’t pull similar data for 2013 and 2014, but cross-referencing with data at <a href="https://www.footballoutsiders.com/stat-analysis/2016/2015-adjusted-games-lost">Football Outsiders</a> (FO) and <a href="https://harvardsportsanalysis.org/2013/11/inaccuracies-in-the-injury-report-across-the-nfl/">HSAC</a> suggests that at least the Questionable and Probable percentages for 2015 were relatively in line with 2013 and 2014. The Questionable numbers from FO showed only 56% played in 2014, but that rebounded to the historical low-60s in 2015.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
